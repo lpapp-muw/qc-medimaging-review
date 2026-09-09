@@ -1,0 +1,152 @@
+col_index,band,name,role,arity,priority
+1,identifiers,doi,identifier,,
+2,identifiers,title,identifier,,
+3,identifiers,stable_name,identifier,,
+4,identifiers,pdf_file,identifier,,
+5,identifiers,year,identifier,,
+6,Bibliographic / Imaging / Translational,title,identity_biblio,,
+7,Bibliographic / Imaging / Translational,title_quote,quote_companion,,
+8,Bibliographic / Imaging / Translational,authors,identity_biblio,,
+9,Bibliographic / Imaging / Translational,authors_quote,quote_companion,,
+10,Bibliographic / Imaging / Translational,journal,identity_biblio,,
+11,Bibliographic / Imaging / Translational,journal_quote,quote_companion,,
+12,Bibliographic / Imaging / Translational,publisher,identity_biblio,,
+13,Bibliographic / Imaging / Translational,publisher_quote,quote_companion,,
+14,Bibliographic / Imaging / Translational,country_corresponding,targetable,scalar,low
+15,Bibliographic / Imaging / Translational,country_corresponding_quote,quote_companion,,
+16,Bibliographic / Imaging / Translational,funding_declared,targetable,bool,low
+17,Bibliographic / Imaging / Translational,funding_declared_quote,quote_companion,,
+18,Bibliographic / Imaging / Translational,funding_source,targetable,scalar,low
+19,Bibliographic / Imaging / Translational,funding_source_quote,quote_companion,,
+20,Bibliographic / Imaging / Translational,modality_primary,targetable,scalar,medium
+21,Bibliographic / Imaging / Translational,modality_primary_quote,quote_companion,,
+22,Bibliographic / Imaging / Translational,modality_secondary,targetable,scalar,medium
+23,Bibliographic / Imaging / Translational,modality_secondary_quote,quote_companion,,
+24,Bibliographic / Imaging / Translational,anatomy,targetable,list,medium
+25,Bibliographic / Imaging / Translational,anatomy_quote,quote_companion,,
+26,Bibliographic / Imaging / Translational,imaging_task,targetable,scalar,medium
+27,Bibliographic / Imaging / Translational,imaging_task_quote,quote_companion,,
+28,Bibliographic / Imaging / Translational,dataset_type,targetable,list,high
+29,Bibliographic / Imaging / Translational,dataset_type_quote,quote_companion,,
+30,Bibliographic / Imaging / Translational,dataset_name,targetable,list,high
+31,Bibliographic / Imaging / Translational,dataset_name_quote,quote_companion,,
+32,Bibliographic / Imaging / Translational,dataset_size_train,targetable,scalar,high
+33,Bibliographic / Imaging / Translational,dataset_size_train_quote,quote_companion,,
+34,Bibliographic / Imaging / Translational,dataset_size_val,targetable,scalar,high
+35,Bibliographic / Imaging / Translational,dataset_size_val_quote,quote_companion,,
+36,Bibliographic / Imaging / Translational,dataset_size_test,targetable,scalar,high
+37,Bibliographic / Imaging / Translational,dataset_size_test_quote,quote_companion,,
+38,Bibliographic / Imaging / Translational,translational_level,targetable,scalar,medium
+39,Bibliographic / Imaging / Translational,translational_level_quote,quote_companion,,
+40,Bibliographic / Imaging / Translational,clinical_impact_claim,targetable,scalar,medium
+41,Bibliographic / Imaging / Translational,clinical_impact_claim_quote,quote_companion,,
+42,Bibliographic / Imaging / Translational,sample_size_justification_reported,targetable,bool,medium
+43,Bibliographic / Imaging / Translational,sample_size_justification_reported_quote,quote_companion,,
+44,Bibliographic / Imaging / Translational,external_validation_used,targetable,bool,medium
+45,Bibliographic / Imaging / Translational,external_validation_used_quote,quote_companion,,
+46,Bibliographic / Imaging / Translational,regulatory_pathway_addressed,targetable,bool,medium
+47,Bibliographic / Imaging / Translational,regulatory_pathway_addressed_quote,quote_companion,,
+48,Bibliographic / Imaging / Translational,prospective_clinical_present,targetable,bool,medium
+49,Bibliographic / Imaging / Translational,prospective_clinical_present_quote,quote_companion,,
+50,QC characterisation,paradigm,targetable,scalar,medium
+51,QC characterisation,paradigm_quote,quote_companion,,
+52,QC characterisation,paradigm_novelty_note,targetable,scalar,medium
+53,QC characterisation,paradigm_novelty_note_quote,quote_companion,,
+54,QC characterisation,hardware_vendor,targetable,scalar,high
+55,QC characterisation,hardware_vendor_quote,quote_companion,,
+56,QC characterisation,hardware_modality,targetable,scalar,medium
+57,QC characterisation,hardware_modality_quote,quote_companion,,
+58,QC characterisation,real_or_simulator,targetable,scalar,medium
+59,QC characterisation,real_or_simulator_quote,quote_companion,,
+60,QC characterisation,simulator_framework,targetable,list,high
+61,QC characterisation,simulator_framework_quote,quote_companion,,
+62,QC characterisation,ansatz_family,targetable,scalar,high
+63,QC characterisation,ansatz_family_quote,quote_companion,,
+64,QC characterisation,parameter_count,targetable,scalar,high
+65,QC characterisation,parameter_count_quote,quote_companion,,
+66,QC characterisation,transpilation_level,targetable,scalar,high
+67,QC characterisation,transpilation_level_quote,quote_companion,,
+68,QC characterisation,image_encoding,targetable,list,high
+69,QC characterisation,image_encoding_quote,quote_companion,,
+70,QC characterisation,image_encoding_novelty_note,targetable,scalar,medium
+71,QC characterisation,image_encoding_novelty_note_quote,quote_companion,,
+72,QC characterisation,error_mitigation_strategy,targetable,scalar,high
+73,QC characterisation,error_mitigation_strategy_quote,quote_companion,,
+74,QC characterisation,error_mitigation_type,targetable,scalar,high
+75,QC characterisation,error_mitigation_type_quote,quote_companion,,
+76,QC characterisation,qubit_count,targetable,scalar,high
+77,QC characterisation,qubit_count_quote,quote_companion,,
+78,QC characterisation,circuit_depth,targetable,scalar,high
+79,QC characterisation,circuit_depth_quote,quote_companion,,
+80,QC characterisation,gate_count,targetable,scalar,high
+81,QC characterisation,gate_count_quote,quote_companion,,
+82,QC characterisation,shot_count,targetable,scalar,high
+83,QC characterisation,shot_count_quote,quote_companion,,
+84,Validation & methodological quality,classical_baseline_present,targetable,bool,high
+85,Validation & methodological quality,classical_baseline_present_quote,quote_companion,,
+86,Validation & methodological quality,classical_baseline_identification,targetable,scalar,high
+87,Validation & methodological quality,classical_baseline_identification_quote,quote_companion,,
+88,Validation & methodological quality,performance_metrics_quantum,targetable,list,high
+89,Validation & methodological quality,performance_metrics_quantum_quote,quote_companion,,
+90,Validation & methodological quality,performance_metrics_classical,targetable,list,high
+91,Validation & methodological quality,performance_metrics_classical_quote,quote_companion,,
+92,Validation & methodological quality,cross_validation_strategy,targetable,scalar,high
+93,Validation & methodological quality,cross_validation_strategy_quote,quote_companion,,
+94,Validation & methodological quality,external_test_set,targetable,bool,high
+95,Validation & methodological quality,external_test_set_quote,quote_companion,,
+96,Validation & methodological quality,statistical_testing_present,targetable,bool,high
+97,Validation & methodological quality,statistical_testing_present_quote,quote_companion,,
+98,Validation & methodological quality,statistical_testing_method,targetable,scalar,high
+99,Validation & methodological quality,statistical_testing_method_quote,quote_companion,,
+100,Validation & methodological quality,code_release,targetable,bool,high
+101,Validation & methodological quality,code_release_quote,quote_companion,,
+102,Validation & methodological quality,code_url,targetable,scalar,high
+103,Validation & methodological quality,code_url_quote,quote_companion,,
+104,Validation & methodological quality,data_release,targetable,bool,high
+105,Validation & methodological quality,data_release_quote,quote_companion,,
+106,Validation & methodological quality,data_identifier,targetable,scalar,high
+107,Validation & methodological quality,data_identifier_quote,quote_companion,,
+108,Validation & methodological quality,weights_release,targetable,bool,high
+109,Validation & methodological quality,weights_release_quote,quote_companion,,
+110,Validation & methodological quality,computational_cost_training,targetable,scalar,medium
+111,Validation & methodological quality,computational_cost_training_quote,quote_companion,,
+112,Validation & methodological quality,computational_cost_inference,targetable,scalar,medium
+113,Validation & methodological quality,computational_cost_inference_quote,quote_companion,,
+114,Validation & methodological quality,baseline_rigour_grade,targetable,scalar,high
+115,Validation & methodological quality,baseline_rigour_grade_quote,quote_companion,,
+116,Validation & methodological quality,dataset_realism_grade,targetable,scalar,high
+117,Validation & methodological quality,dataset_realism_grade_quote,quote_companion,,
+118,Validation & methodological quality,reporting_standard_adherence,targetable,list,medium
+119,Validation & methodological quality,reporting_standard_adherence_quote,quote_companion,,
+120,Risk-of-bias (explainability),explainability_mechanism,targetable,scalar,high
+121,Risk-of-bias (explainability),explainability_mechanism_quote,quote_companion,,
+122,Risk-of-bias (explainability),explainability_method_name,targetable,scalar,high
+123,Risk-of-bias (explainability),explainability_method_name_quote,quote_companion,,
+124,Human assessment,clinical_impact_assessment,human_assessment,,
+125,Human assessment,clinical_impact_assessment_justification,human_assessment,,
+126,Derived (auto-computed),multimodal (derived),derived,,
+127,Derived (auto-computed),ionising_flag (derived),derived,,
+128,Derived (auto-computed),clinical_translation_readiness (derived),derived,,
+129,Derived (auto-computed),reproducibility_tier (derived),derived,,
+130,Derived (auto-computed),dataset_realism_rob (derived),derived,,
+131,Derived (auto-computed),quantum_resource_accounting_completeness (derived),derived,,
+132,Derived (auto-computed),error_mitigation_clarity (derived),derived,,
+133,Derived (auto-computed),honest_resource_reporting (derived),derived,,
+134,Derived (auto-computed),summary_methodological_quality (derived),derived,,
+135,Derived (auto-computed),paradigm_subcategory (derived),derived,,
+136,Derived (auto-computed),paradigm_facets (derived),derived,,
+137,Derived (auto-computed),paradigm_resolution_basis (derived),derived,,
+138,Derived (auto-computed),paradigm_axis_b (derived),derived,,
+139,Derived (auto-computed),hardware_execution_subcategory (derived),derived,,
+140,Derived (auto-computed),hardware_execution_facets (derived),derived,,
+141,Derived (auto-computed),hardware_execution_basis (derived),derived,,
+142,Derived (auto-computed),execution_context (derived),derived,,
+143,Derived (auto-computed),execution_context_basis (derived),derived,,
+144,Derived (auto-computed),modality_subcategory (derived),derived,,
+145,Derived (auto-computed),modality_family (derived),derived,,
+146,Derived (auto-computed),modality_basis (derived),derived,,
+147,Derived (auto-computed),task_axis_a (derived),derived,,
+148,Derived (auto-computed),imaging_task_tags (derived),derived,,
+149,Derived (auto-computed),task_subcategory (derived),derived,,
+150,Derived (auto-computed),task_family (derived),derived,,
+151,Derived (auto-computed),task_basis (derived),derived,,

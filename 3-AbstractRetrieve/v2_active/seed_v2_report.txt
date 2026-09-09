@@ -1,0 +1,51 @@
+seed_v2_verdicts.py report
+============================================================
+v2 corpus records:                       6847
+v1 verdicts available (DOIs):            2974
+
+Corpus provenance distribution:
+  v1_reused                        2876
+  v2_openalex                      1553
+  v2_failed                         876
+  v2_crossref                       780
+  v2_europepmc                      762
+
+REUSED v1 verdicts (seeded into v2 verdicts.jsonl):
+  Total reused:                          2874
+
+  Distribution by v1 primary category:
+    OTHER                             633
+    CLINICAL_NON_IMAGING              631
+    QUANTUM_DOTS                      363
+    FLUORESCENCE_PROBES               338
+    CLASSICAL_AI_FOR_IMAGING          337
+    NANO_THERAPEUTICS                 283
+    QUANTUM_SENSING_BIOMED            142
+    QC_FOR_IMAGING                     88
+    QUANTUM_INSPIRED_CLASSICAL         37
+    QUANTUM_CRYPTO_MED                 22
+
+TO SCREEN in v2 (written to to_screen_v2.json):
+  Total to screen:                       3973
+  ... with abstract:                     3097
+  ... title-only (no abstract):          876
+
+  By abstract provenance:
+    v2_openalex                      1553
+    v2_failed                         876
+    v2_crossref                       780
+    v2_europepmc                      762
+    v1_reused                           2
+
+Files written:
+  v2_active/verdicts.jsonl   (2874 verdicts)
+  v2_active/to_screen_v2.json   (3973 records)
+  v2_active/seed_v2_report.txt
+
+NEXT STEPS:
+  1. Point the Claude Code orchestrator at to_screen_v2.json instead of merged_dataset.json.
+  2. Run: 'process the entire corpus' inside the Claude Code session.
+  3. The orchestrator's batch_helper will skip records already in verdicts.jsonl
+     (i.e. the reused v1 verdicts), so it only screens the to-screen records.
+  4. After screening, run a verdict-count sanity check: total verdicts in
+     verdicts.jsonl should equal the v2 corpus size (6847).

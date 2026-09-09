@@ -1,0 +1,13 @@
+metric,value
+included_papers,134
+papers_with_harvested_link_or_release,84
+papers_with_at_least_one_fetchable_link,37
+total_harvested_links,108
+fetchable_links,44
+non_fetch_links (named_dataset_ref / unresolved),64
+papers_release_claimed_no_url (gap for subagent),47
+type::code_repository,36
+type::data_doi,3
+type::data_repository,8
+type::external_data_url,42
+type::named_dataset_ref,19

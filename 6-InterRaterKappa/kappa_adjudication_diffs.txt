@@ -1,0 +1,42 @@
+GENUINE categorical disagreements (lenient crosswalk, one-sided-NR excluded)
+paper	field	human	AI
+10_1002_ima_23015	translational_level	retrospective clinical evaluation	proof_of_concept
+10_1002_ima_23015	baseline_rigour_grade	Weak	matched_data_compute
+10_1002_jemt_24054	translational_level	retrospective	in_silico
+10_1002_jemt_24054	baseline_rigour_grade	Weak	matched_data
+10_1002_jemt_24054	data_release	yes	FALSE
+10_1007_s00259_023_06362_6	modality_primary	PET radiomic features	PET
+10_1007_s00259_023_06362_6	imaging_task	Survival; classification	radiomics
+10_1007_s00259_023_06362_6	baseline_rigour_grade	Matched_data_compute_stats	matched_data_compute
+10_1007_s00259_023_06362_6	reporting_standard_adherence	standard for imaging standardization	CLAIM_2024
+10_1007_s00521_023_09207_3	data_release	yes, singular datasets	FALSE
+10_1007_s11307_025_01990_w	baseline_rigour_grade	Weak	matched_data
+10_1007_s11307_025_01990_w	data_release	yes	FALSE
+10_1016_j_artmed_2025_103322	cross_validation_strategy	Single split 80/20% and 83/17% for AMD and NDD respectively + 5-fold stratified cross-validation for statistical testing	holdout
+10_1016_j_artmed_2025_103322	explainability_mechanism	"Together, these techniques provide a multi-dimensional view of QENNA's internal reasoning—capturing localized pixel-level contributions, aggregate feature importance trends, and spatially coherent regions of diagnostic focus."	classical_XAI
+10_1016_j_artmed_2025_103322	external_test_set	No	TRUE
+10_1016_j_neucom_2023_01_049	paradigm	other	QML
+10_1038_s41598_023_41700_6	hardware_modality	superconducting	annealing
+10_1038_s41598_023_41700_6	image_encoding	Other	basis
+10_1038_s41598_024_61452_1	real_or_simulator	Both?	simulator
+10_1038_s41598_024_61452_1	simulator_framework	Qiskit	other
+10_1038_s41598_024_61452_1	image_encoding	Hybrid	not_applicable
+10_1038_s41598_025_08453_w	paradigm	quantum annealing	other
+10_1038_s41598_025_08453_w	hardware_modality	superconducting	annealing
+10_1038_s41598_025_08453_w	image_encoding	Other	basis
+10_1038_s41598_025_14611_x	paradigm	quantum annealing	other
+10_1038_s41598_025_14611_x	hardware_modality	superconducting	annealing
+10_1038_s41598_025_14611_x	real_or_simulator	real	both
+10_1038_s41598_025_14611_x	image_encoding	Not applicable	not_applicable
+10_1088_1748_0221_18_07_p07007	paradigm	QML	other
+10_1088_1748_0221_18_07_p07007	simulator_framework	Qiskit	other
+10_1088_1748_0221_18_07_p07007	image_encoding	Unary amplitude	not_applicable
+10_1103_physreva_110_063512	data_release	yes, e.g. scikit learn	FALSE
+10_1117_12_3085665	data_release	yes	FALSE
+10_1142_s1469026825500105	data_release	yes, public but not reported in the paper	FALSE
+10_1186_s12880_023_01084_5	data_release	yes, public for Kaggle, on request with registration for BRANDT	TRUE
+10_1371_journal_pone_0331870	image_encoding	Angle (ZZFeatureMap)	other
+10_1371_journal_pone_0331870	weights_release	not reported	TRUE
+10_3389_fonc_2025_1553539	simulator_framework	Matlab	other
+10_7717_peerj_cs_3387	data_release	https://www.kaggle.com/datasets/lukechugh/bestalzheimer-
+mri-dataset-99-accuracy.	TRUE

@@ -1,0 +1,20 @@
+Step-5 high-severity contradiction adjudication - fix report
+Date: 2026-06-22 (report regenerated 2026-09-09 to match the revised script and the committed data)
+
+JSONL edits applied (11 records touched):
+  - access_3531407       B.real_or_simulator: real -> simulator
+  - access_3581030       A.dataset_name: ['HAM10000'] -> 770-image 4-class skin set
+  - jestch               modality kept MRI; internal contradiction flagged (quality)
+  - s12911               NO EDIT (already simulator_only/simulator); adjudicated
+  - acffa3               modality -> other + X-ray secondary (=> multimodal, ionising TRUE)
+  - ejca                 EXCLUDED (secondary/review); N 135 -> 134
+  - s41598_026_51942_9   B.image_encoding: amplitude -> angle
+  - jbhi_2025_3610855    D real_vs_sim_explicit: True/'real hardware' -> False/struck
+  - s10791_025_09634_x   C.baseline_rigour_grade: matched_data -> weak
+  - radphyschem_2025_113545  baseline_rigour_grade: NO EDIT (kept grounded 'matched_data'; prior downgrade reverted)
+  - s11760_023_02857_9   C.dataset_realism_grade: private_single_centre -> public_benchmark
+
+Cull:
+  included_step5: 135 -> 134 (removed 1)
+  manual exclusions rows now: 31 (ejca already present: False)
+  PRISMA excluded total: 46 -> 47; secondary/review 10 -> 11

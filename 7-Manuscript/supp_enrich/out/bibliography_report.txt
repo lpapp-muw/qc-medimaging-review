@@ -1,0 +1,29 @@
+
+==============================================================================
+BIBLIOGRAPHY REPORT
+==============================================================================
+  entries written      : 133
+  source CSL-JSON      : 70
+  source DOI cache     : 63
+  source Crossref      : 0
+  no metadata found    : 0
+
+  complete on author/title/journal/year: 133 of 133
+    author   present in 133 of 133
+    title    present in 133 of 133
+    journal  present in 133 of 133
+    year     present in 133 of 133
+    volume   present in 125 of 133
+    number   present in  78 of 133
+    pages    present in 108 of 133
+
+  WORKBOOK FALLBACK, fields filled from the quote-grounded extraction
+  studies affected: 1
+    10.56042/jsir.v84i1.14112  ->  author
+
+  CROSS-CHECK against the extraction workbook
+  title overlap below 0.60: 0
+    none; every harvested title matches the extracted title
+
+  Re-run with --fetch to query Crossref for DOIs neither local source
+  covers, at one request per second.

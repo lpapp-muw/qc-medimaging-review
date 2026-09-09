@@ -1,0 +1,22 @@
+{
+ "note": "Post-appraisal extraction corrections. The workbook is unmodified; any recompute must apply this overlay before tabulating dataset_realism_grade.",
+ "workbook": "extractions_ai_enriched_v134.xlsx",
+ "corrections": [
+  {
+   "doi": "10.1016/j.knosys.2024.112922",
+   "field": "dataset_realism_grade",
+   "from": "private_single_centre",
+   "to": "private_multi_centre",
+   "basis": "All five reviewers independently identified the underlying multi-site consortium resource; the recorded single-centre private grade contradicted every appraisal. Section 4.9, items carried forward."
+  },
+  {
+   "doi": "10.1038/s41598-025-17075-1",
+   "field": "dataset_realism_grade",
+   "from": "private_multi_centre",
+   "to": "private_single_centre",
+   "basis": "The development cohort is a single private source; the second cohort is an open database used for external validation. Section 4.9, Table 2 footnote."
+  }
+ ],
+ "workbook_md5": "74bbd89eda6b1c8fd85a3068bef947a8",
+ "canonical_path": "7-Manuscript/supp_enrich/out/extractions_ai_enriched_v134.xlsx"
+}

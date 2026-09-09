@@ -1,0 +1,17 @@
+doi,stable_name,paradigm_subcategory,prisma_reason,paradigm_facets
+10.1007/s10462-024-10932-x,10_1007_s10462_024_10932_x,review_or_perspective,secondary study (review / perspective),review_or_perspective; quantum_image_representation
+10.1007/s10586-024-04852-2,10_1007_s10586_024_04852_2,quantum_cellular_automata,"quantum cellular automata, not gate/annealing quantum computing",quantum_cellular_automata; detector_instrumentation
+10.1007/s11227-025-07963-8,10_1007_s11227_025_07963_8,quantum_cellular_automata,"quantum cellular automata, not gate/annealing quantum computing",quantum_cellular_automata; quantum_arithmetic_logic; quantum_image_representation
+10.1016/j.acra.2026.01.034,10_1016_j_acra_2026_01_034,review_or_perspective,secondary study (review / perspective),review_or_perspective
+10.1016/j.ejmp.2026.105780,10_1016_j_ejmp_2026_105780,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon
+10.1038/s41467-021-22907-5,10_1038_s41467_021_22907_5,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon
+10.1038/s41598-024-60472-1,10_1038_s41598_024_60472_1,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon
+10.1038/s41598-025-32951-6,10_1038_s41598_025_32951_6,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon
+10.1088/1748-0221/18/07/p07007,10_1088_1748_0221_18_07_p07007,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon
+10.1103/physreva.110.063512,10_1103_physreva_110_063512,quantum_physics_phenomenon,"quantum physics phenomenon (entanglement / error-correction), not quantum computing",quantum_physics_phenomenon
+10.1109/tim.2025.3533651,10_1109_tim_2025_3533651,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation
+10.1109/tns.2022.3140396,10_1109_tns_2022_3140396,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation
+10.1109/tns.2024.3369972,10_1109_tns_2024_3369972,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation
+10.1109/trpms.2024.3388872,10_1109_trpms_2024_3388872,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon
+10.1140/epjp/s13360-025-06587-4,10_1140_epjp_s13360_025_06587_4,quantum_inspired,"quantum-inspired classical method, no quantum computation",quantum_inspired
+10.5604/01.3001.0054.9079,10_5604_01_3001_0054_9079,detector_instrumentation,"quantum sensing / detector physics, not quantum computing",detector_instrumentation; quantum_physics_phenomenon

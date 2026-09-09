@@ -1,0 +1,73 @@
+{
+  "total_verdicts": 146,
+  "verdict_counts": {
+    "stay_OUT": 142,
+    "promote_to_IN": 4
+  },
+  "confidence_counts": {
+    "high": 146
+  },
+  "cross_tab": {
+    "stay_OUT": {
+      "high": 142
+    },
+    "promote_to_IN": {
+      "high": 4
+    }
+  },
+  "escape_flag_counts": {},
+  "modality_distribution_promotes": {
+    "PET": 4
+  },
+  "promoted_records": [
+    {
+      "record_id": "http://zotero.org/users/19517875/items/LS2JK9MW",
+      "doi": "10.1109/trpms.2024.3388872",
+      "title": "Quantum Entanglement Filtering: A PET Feasibility Study in Imaging Dual-Positron and Prompt Gamma Emission via Monte Carlo Simulation",
+      "modality": "PET",
+      "modality_quote": "PET Feasibility Study",
+      "context_quote": "CZT detectors to lead next generation PET systems taking full advantage of the QE information of positron annihilation photons",
+      "confidence": "high",
+      "reasoning": "Quantum entanglement filtering is described as a component technology for next-generation PET systems using CZT detectors to exploit quantum entanglement information.",
+      "rescued": false,
+      "quote_unverified": false
+    },
+    {
+      "record_id": "http://zotero.org/users/19517875/items/4A3ACMFU",
+      "doi": "10.1088/1748-0221/18/07/p07007",
+      "title": "Background reduction in PET by double Compton scattering of quantum entangled annihilation photons",
+      "modality": "PET",
+      "modality_quote": "positron emission tomography (PET)",
+      "context_quote": "utilized the quantum entanglement property of annihilation photons in a typical PET system",
+      "confidence": "high",
+      "reasoning": "Quantum entanglement property of annihilation photons is used as a component within a PET system for background reduction.",
+      "rescued": false,
+      "quote_unverified": false
+    },
+    {
+      "record_id": "http://zotero.org/users/19517875/items/SZIHV3W3",
+      "doi": "10.1038/s41467-021-22907-5",
+      "title": "Photon quantum entanglement in the MeV regime and its application in PET imaging",
+      "modality": "PET",
+      "modality_quote": "Positron Emission Tomography (PET)",
+      "context_quote": "the two annihilation photons are predicted to be produced in a quantum-entangled state, resulting in enhanced correlations between their subsequent interaction processes",
+      "confidence": "high",
+      "reasoning": "Quantum entanglement of annihilation photons is used as part of the PET imaging detection system to improve background rejection.",
+      "rescued": false,
+      "quote_unverified": false
+    },
+    {
+      "record_id": "http://zotero.org/users/19517875/items/8Z8TZ8D7",
+      "doi": "10.1038/s41598-025-32951-6",
+      "title": "Machine learning-assisted event classification in cadmium zinc telluride positron emission tomography detectors leveraging entanglement-informed angular correlations",
+      "modality": "PET",
+      "modality_quote": "Positron Emission Tomography (PET) systems",
+      "context_quote": "machine-learning framework that exploits these quantum-encoded features to resolve true lines of response (LORs) and reject random coincidences in a dual-panel cadmium zinc telluride (CZT) system",
+      "confidence": "high",
+      "reasoning": "Entanglement-informed angular correlations are used as signal-processing elements in a CZT-based PET detector system for event classification.",
+      "rescued": false,
+      "quote_unverified": false
+    }
+  ],
+  "low_confidence_stay_out": []
+}

@@ -1,0 +1,10 @@
+1. In WoS query remove: Open Access, Open Access: All Open Access, Open Access: All Open Access. 4813 results received in 5 xlsx files (due to limitation of 1000 entries per file)
+2. In PubMed query text availability filter was removed. CSV downloaded. 3127 results received.
+3. In IEEE All results filter was selected. CSV downloaded. 929 results received.
+4. Copied WoS, PUBMED, IEEE DOI column to DOIs excel
+5. Lower cased DOIs 
+6. Combined all DOIs to a flat list
+7. Empty DOI entries identified and removed. 9 entries deleted.
+8. Duplicates identified and removed. 2021 duplicate entries deleted, leaving 6848 unique DOIs.
+
+

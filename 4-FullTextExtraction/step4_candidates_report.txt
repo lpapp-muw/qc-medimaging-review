@@ -1,0 +1,26 @@
+Stage 4 candidate set: text report
+==================================
+
+Total candidates: 92
+
+  step3_high                 70
+  step3_uncertain            18
+  step3_5_promote             4
+
+PDF availability:
+  yes                        92
+
+PDF source breakdown:
+  rdf_index                  89
+  manual                      3
+
+Manual PDFs detected (3):
+  10.1038_s41598-026-35540-3.pdf  ->  10.1038/s41598-026-35540-3
+  10.3390_app13064009.pdf  ->  10.3390/app13064009
+  10.3390_medsci12040067.pdf  ->  10.3390/medsci12040067
+
+PRISMA exclusions:
+  10.1109/jiot.2025.3586090 - full text not retrievable
+
+Records without local PDF:
+  (none)

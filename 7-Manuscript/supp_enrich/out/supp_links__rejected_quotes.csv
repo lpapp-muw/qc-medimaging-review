@@ -1,0 +1,13 @@
+stable_name,type,locator,reason
+10_1002_ima_23015,data_repository,https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection,quote_not_in_source
+10_1007_s00259_023_06362_6,supplementary_material,Appendix C of the supplement,quote_not_in_source
+10_1007_s13369_021_06511_9,supplementary_material,supplementary S.5: Fig-S5,quote_not_in_source
+10_1016_j_ijrobp_2026_03_010,supplementary_material,"Supplementary Material Method part, Fig. E1 and Eqs. E1-E4",quote_not_in_source
+10_1016_j_ijrobp_2026_03_010,supplementary_material,Supplementary Results (Tables E1 and E2),quote_not_in_source
+10_1016_j_jestch_2026_102386,data_repository,https://kits21.grand-challenge.org/,quote_not_in_source
+10_1016_j_neucom_2025_131410,data_repository,Data will be made available upon request.,quote_not_in_source
+10_1088_2632_2153_add1a9,supplementary_material,Table S5 in the supplementary document,quote_not_in_source
+10_1109_access_2026_3677204,data_repository,https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset,quote_not_in_source
+10_1109_tce_2024_3351649,data_doi,https://dx.doi.org/10.21227/5cr5-0204,quote_not_in_source
+10_3389_fmed_2025_1677234,supplementary_material,article/supplementary material,quote_not_in_source
+10_3389_fonc_2025_1553539,code_repository,https://github.com/rachelglenn/qcuts3D,quote_not_in_source

@@ -1,0 +1,76 @@
+Predatory journal screen — IEEE TRPMS systematic review
+======================================================================
+
+Corpus: 181 papers
+  clean:              173
+  flagged_predatory:  8
+  retracted:          0
+  DOAJ-indexed:       96 (positive signal, informational)
+
+Flagged and retracted papers require HUMAN ADJUDICATION.
+The SPJ list can produce false positives; do not auto-exclude.
+Read each entry and decide.
+
+======================================================================
+
+PREDATORY-FLAGGED PAPERS (8):
+----------------------------------------
+
+DOI: 10.3389/fdgth.2023.1283726
+  stable: 10_3389_fdgth_2023_1283726
+  journal: Frontiers in Digital Health
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.3389/fmed.2025.1677234
+  stable: 10_3389_fmed_2025_1677234
+  journal: Frontiers in Medicine
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.3389/fonc.2025.1553539
+  stable: 10_3389_fonc_2025_1553539
+  journal: Frontiers in Oncology
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.3389/fphy.2022.1046314
+  stable: 10_3389_fphy_2022_1046314
+  journal: Frontiers in Physics
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.3389/fphy.2023.1212373
+  stable: 10_3389_fphy_2023_1212373
+  journal: Frontiers in Physics
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.3389/fpsyt.2025.1648060
+  stable: 10_3389_fpsyt_2025_1648060
+  journal: Frontiers in Psychiatry
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.3389/frai.2026.1807209
+  stable: 10_3389_frai_2026_1807209
+  journal: Frontiers in Artificial Intelligence
+  publisher: Frontiers
+  sources: SPJ_publisher
+  notes: publisher 'Frontiers' on SPJ predatory list; OpenAlex: journal indexed in DOAJ (positive signal)
+
+DOI: 10.62347/wohq8174
+  stable: 10_62347_wohq8174
+  journal: American Journal of Translational Research
+  publisher: e-Century Publishing Corporation
+  sources: SPJ_publisher
+  notes: publisher 'e-Century Publishing Corporation' on SPJ predatory list
+
+======================================================================
+

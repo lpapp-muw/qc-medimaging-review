@@ -1,0 +1,3 @@
+WOS: https://www.webofscience.com/wos/woscc/summary/b0b7addf-4213-405e-8540-614b98f39af7-019c615342/relevance/1
+Pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=%28quantum%29+AND+%28medical+OR+clinical%29+AND+%28imaging+OR+image%29&filter=datesearch.y_5&filter=simsearch2.ffrft&filter=lang.english&filter=other.excludepreprints&size=200
+IEEE: https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&matchBoolean=true&queryText=(%22All%20Metadata%22:quantum)%20AND%20(%22All%20Metadata%22:medical%20OR%20%22All%20Metadata%22:clinical)%20AND%20(%22All%20Metadata%22:imaging%20OR%20%22All%20Metadata%22:image)&highlight=true&returnType=SEARCH&matchPubs=true&openAccess=true&ranges=2021_2026_Year&returnFacets=ALL&refinements=ContentType:Journals

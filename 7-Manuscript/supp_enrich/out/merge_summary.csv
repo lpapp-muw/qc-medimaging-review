@@ -1,0 +1,9 @@
+metric,value
+papers_merged,94
+T1_author_deposit,35
+T2_publisher_si,58
+T3_public_or_other,1
+T4_none,0
+papers_with_author_deposit_fetch_target,35
+author_deposit_fetch_links_total,48
+recovered_links (flagged needs_quote_verify),2

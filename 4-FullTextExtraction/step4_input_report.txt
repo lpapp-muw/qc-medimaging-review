@@ -1,0 +1,15 @@
+Step 4 input preparation report
+===============================
+
+Candidates                 : 92
+Input records emitted      : 92
+Total fulltext characters  : 9,160,429
+Mean characters per record : 99,570
+
+Fulltext quality distribution:
+  ok                         92
+  low_text_density            0
+  likely_ocr_needed           0
+  extraction_failed           0
+  no_pdf                      0
+  missing                     0

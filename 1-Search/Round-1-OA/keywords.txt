@@ -1,0 +1,3 @@
+PUBMED: (quantum) AND (medical OR clinical) AND (imaging OR image)
+WOS: (ALL=(quantum)) AND (ALL=(medical) OR ALL=(clinical)) AND (ALL=(imaging) OR ALL=(image))
+IEEE: ("All Metadata":quantum) AND ("All Metadata":medical OR "All Metadata":clinical) AND ("All Metadata":imaging OR "All Metadata":image)

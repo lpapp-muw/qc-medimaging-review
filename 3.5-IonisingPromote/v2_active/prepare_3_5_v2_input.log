@@ -1,0 +1,4 @@
+prepare_3_5_v2_input.py: v2 QSB records prepared = 96
+  skipped already-v1-screened: 142
+  skipped no-corpus-match:     0
+  output:                      /home/lpapp/IEEE_SYS_REV/3.5-IonisingPromote/v2_active/stage_3_5_v2_input.jsonl

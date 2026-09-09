@@ -1,0 +1,150 @@
+PER-RECORD FILTER VALIDATION  (output vs source vs included_step5_v134.csv)
+source extractions papers: 181 | included target: 134 | output extractions papers: 134
+output audit_flags papers: 134
+
+extractions column width: source=151 output=151  OK
+
+#001 10_1002_ima_23015                  PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#002 10_1002_jemt_24054                 PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#003 10_1007_s00259_023_06362_6         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#004 10_1007_s00521_022_07388_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#005 10_1007_s00521_023_08566_1         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#006 10_1007_s00521_023_08717_4         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#007 10_1007_s00521_023_09207_3         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#008 10_1007_s10278_023_00886_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#009 10_1007_s10278_025_01630_3         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#010 10_1007_s10791_025_09634_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#011 10_1007_s10791_025_09791_z         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#012 10_1007_s11128_024_04369_y         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#013 10_1007_s11128_025_04955_8         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#014 10_1007_s11128_026_05144_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#015 10_1007_s11227_024_06740_3         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#016 10_1007_s11265_025_01973_8         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#017 10_1007_s11307_025_01990_w         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#018 10_1007_s11467_024_1391_x          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#019 10_1007_s11760_023_02857_9         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#020 10_1007_s12065_024_00971_2         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#021 10_1007_s12559_021_09926_6         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#022 10_1007_s13369_021_06511_9         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#023 10_1007_s42452_025_06504_5         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#024 10_1007_s42484_024_00170_3         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#025 10_1007_s42484_024_00171_2         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#026 10_1007_s42484_025_00288_y         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#027 10_1007_s42484_025_00315_y         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#028 10_1007_s42484_026_00385_6         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#029 10_1007_s44196_025_00920_6         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#030 10_1007_s44443_025_00449_w         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#031 10_1016_j_aej_2023_09_008          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#032 10_1016_j_aej_2025_12_007          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#033 10_1016_j_artmed_2025_103322       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#034 10_1016_j_asoc_2025_113631         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#035 10_1016_j_bspc_2023_105560         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#036 10_1016_j_bspc_2026_110251         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#037 10_1016_j_cmpb_2026_109362         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#038 10_1016_j_compbiomed_2025_110941   PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#039 10_1016_j_compbiomed_2026_111633   PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#040 10_1016_j_engappai_2025_111938     PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#041 10_1016_j_ijrobp_2026_03_010       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#042 10_1016_j_inffus_2023_101913       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#043 10_1016_j_jestch_2025_102272       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#044 10_1016_j_jestch_2026_102386       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#045 10_1016_j_jrras_2026_102165        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#046 10_1016_j_knosys_2023_110413       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#047 10_1016_j_knosys_2024_112922       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#048 10_1016_j_mex_2025_103185          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#049 10_1016_j_mex_2025_103605          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#050 10_1016_j_neucom_2025_131410       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#051 10_1016_j_radphyschem_2025_113545  PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#052 10_1016_j_softx_2026_102621        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#053 10_1038_s41598_023_41700_6         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#054 10_1038_s41598_024_61452_1         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#055 10_1038_s41598_025_08453_w         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#056 10_1038_s41598_025_14611_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#057 10_1038_s41598_025_17075_1         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#058 10_1038_s41598_025_31122_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#059 10_1038_s41598_025_93552_x         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#060 10_1038_s41598_026_35540_3         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#061 10_1038_s41598_026_35605_3         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#062 10_1038_s41598_026_35951_2         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#063 10_1038_s41598_026_38063_z         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#064 10_1038_s41598_026_40127_z         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#065 10_1038_s41598_026_42047_4         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#066 10_1038_s41598_026_49227_2         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#067 10_1038_s41598_026_51942_9         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#068 10_1038_s43588_022_00351_9         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#069 10_1049_qtc2_70010                 PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#070 10_1080_00207454_2026_2656322      PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#071 10_1088_1402_4896_ae20d5           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#072 10_1088_2058_9565_acfc61           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#073 10_1088_2058_9565_ae24a8           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#074 10_1088_2632_2153_acffa3           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#075 10_1088_2632_2153_ad2aef           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#076 10_1088_2632_2153_ad8c11           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#077 10_1088_2632_2153_add1a9           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#078 10_1093_jcde_qwac003               PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#079 10_1103_physrevresearch_6_l042060  PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#080 10_1109_access_2024_3360139        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#081 10_1109_access_2024_3434681        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#082 10_1109_access_2025_3531407        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#083 10_1109_access_2025_3542807        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#084 10_1109_access_2025_3581030        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#085 10_1109_access_2025_3599679        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#086 10_1109_access_2025_3608217        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#087 10_1109_access_2025_3625205        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#088 10_1109_access_2025_3627877        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#089 10_1109_access_2025_3638383        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#090 10_1109_access_2025_3639179        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#091 10_1109_access_2026_3663498        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#092 10_1109_access_2026_3669206        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#093 10_1109_access_2026_3677204        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#094 10_1109_access_2026_3683415        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#095 10_1109_access_2026_3686925        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#096 10_1109_jbhi_2025_3596156          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#097 10_1109_jbhi_2025_3610855          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#098 10_1109_tce_2024_3351649           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#099 10_1109_tqe_2025_3618295           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#100 10_1109_tqe_2026_3681530           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#101 10_1117_12_3085665                 PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#102 10_1140_epjp_s13360_025_07148_5    PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#103 10_1142_s1469026825500105          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#104 10_1155_2022_3236305               PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#105 10_1186_s12880_023_01084_5         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#106 10_1186_s12880_025_01813_y         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#107 10_1186_s12911_021_01588_6         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#108 10_1371_journal_pone_0331870       PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#109 10_2174_0115734056317489240808094924 PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#110 10_22331_q_2022_12_22_881          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#111 10_3389_fdgth_2023_1283726         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#112 10_3389_fmed_2025_1677234          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#113 10_3389_fonc_2025_1553539          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#114 10_3389_fphy_2022_1046314          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#115 10_3389_fphy_2023_1212373          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#116 10_3389_fpsyt_2025_1648060         PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#117 10_3390_a19040279                  PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#118 10_3390_ai6020036                  PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#119 10_3390_app13064009                PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#120 10_3390_bdcc10010012               PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#121 10_3390_bioengineering11080799     PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#122 10_3390_bioengineering12040326     PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#123 10_3390_biomedinformatics5030051   PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#124 10_3390_brainsci14040401           PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#125 10_3390_computation13120278        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#126 10_3390_diagnostics14050558        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#127 10_3390_electronics11050721        PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#128 10_3390_jimaging9070128            PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#129 10_3390_jimaging9100221            PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#130 10_3390_life15071124               PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#131 10_4018_ijehmc_321149              PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#132 10_56042_jsir_v84i1_14112          PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#133 10_62347_wohq8174                  PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+#134 10_7717_peerj_cs_3387              PASS | ext_present=1 | content=identical(151 cells) | doi=match | audit=present&identical
+
+GLOBAL SET CHECKS
+  missing (included but absent from output): 0 []
+  extra (in output but not included): 0 []
+  excluded papers leaked into output: 0 []
+  duplicate keys in output extractions: 0 []
+  audit_flags key set == extractions key set: True
+  excluded count (source-included): 47 (expect 47)
+
+OVERALL: ALL PASS  (134/134 records validated)

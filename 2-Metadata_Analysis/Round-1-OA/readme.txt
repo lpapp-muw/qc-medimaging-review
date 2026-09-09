@@ -1,0 +1,74 @@
+Steps in Phase-2:
+- Import DOI list to Zotero
+- Exclude duplicate papers that are associated to more than one DOI:
+  - 10.1002/advs.202306097 and 10.1016/j.arabjc.2022.104520 duplicates --> 10.1016/j.arabjc.2022.104520 deleted
+- Exclude retracted manuscripts (rely on Zotero's in-built filter mechanism)
+  - 10.1155/2021/9975762
+  - 10.1155/2022/6103649
+- Exclude papers that are not manuscripts
+  - 10.18280/ts.420531 (not paper but a table, seemingly a supplemental material)
+- For missing PDF / Abstracts in Zotero
+  - Attempt to download PDF via python file doi_pdf_downloader_best.py
+  - Manually find and download the PDF
+- Exclude papers whose documents are not accessible (false flag open-access)
+  - 10.1039/d1tb02280f
+  - 10.1063/5.0219480
+  - 10.1149/2162-8777/acdea5
+  - 10.1039/d2md00358a
+  - 10.1039/d2lc00909a
+  - 10.1109/jstqe.2025.3635031
+  - 10.1109/jstqe.2022.3205862
+  - 10.1109/tbme.2024.3465654
+  - 10.1117/1.jmi.11.3.033502
+  - 10.1109/trpms.2022.3227576
+  - 10.1117/1.jmi.11.4.043503
+  - 10.2217/nnm-2023-0044
+  - 10.1117/1.jmi.11.1.013502
+  - 10.1080/00107514.2023.2182950
+  - 10.1109/trpms.2023.3280674
+  - 10.1117/1.jmi.10.3.033505
+  - 10.1080/00032719.2023.2250032
+  - 10.1109/tci.2024.3473312
+  - 10.1117/1.jmi.10.5.053502
+  - 10.1117/1.jmi.12.s1.s13005
+  - 10.1109/jiot.2025.3586090
+  - 10.1116/5.0106099
+  - 10.1109/jstqe.2023.3270403
+  - 10.1103/physrevapplied.19.034049
+  - 10.1103/physrevlett.134.013202
+  - 10.1109/trpms.2020.3007380
+  - 10.1117/12.2611170
+  - 10.1117/12.2653984
+  - 10.1039/d4tb02876g
+  - 10.1038/s41440-024-01831-3
+  - 10.1109/jstqe.2021.3066895
+  - 10.1097/sla.0000000000005761
+  - 10.1126/science.adt0293
+  - 10.1117/12.2653390
+  - 10.1039/d0nr08362c
+  - 10.1126/science.adh3856
+  - 10.1039/d2tc01526a
+  - 10.1109/msp.2025.3527199
+  - 10.2217/nnm-2021-0420
+  - 10.1038/s43586-023-00211-4
+  - 10.1039/d5cp02597d
+  - 10.1002/asia.202300847
+  - 10.1088/1361-6463/acf941
+  - 10.1111/acer.15495
+  - 
+- Exclude documents that have no English manuscript
+  - 10.3788/cjl230983
+  - 
+- Not able to access content (other reasons)
+  - 10.6060/ivkkt.20236602.6615
+  - 10.7554/elife.73021.sa2
+  - 10.12720/jait.14.4.668-673
+  - 10.1016/j.jmrt.2023.04.181
+  - 10.1016/j.talanta.2024.125904
+  - 10.1126/sciadv.ady6173
+  - 
+- Collect metadata:
+  - Export metadata, including abstracts for further analysis of remaining papers from Zotero
+  - Merge original raw export files from Phase 1 by python script XXX.py to get metadata
+  - Get metadata by python code YYY.py which attempts to retrieve metadata from crossref
+  - Exclude papers that have no metadata

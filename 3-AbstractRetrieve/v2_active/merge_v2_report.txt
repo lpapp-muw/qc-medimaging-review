@@ -1,0 +1,24 @@
+merge_v2_corpus.py report
+============================================================
+v2 corpus DOIs:           6847
+v1 records available:     2974
+v2 recovery records:      3971
+
+Output: merged_dataset.json
+  Total records written:  6847
+
+Provenance distribution:
+  v1_reused:                2876
+  v2_crossref:               780
+  v2_openalex:              1553
+  v2_europepmc:              762
+  v2_failed:                 876
+
+Validation:
+  Total with valid abstract:  5971
+  Title-only (no abstract):   876
+
+Files written:
+  v2_active/merged_dataset.json
+  v2_active/title_only_records_v2.json
+  v2_active/merge_v2_report.txt

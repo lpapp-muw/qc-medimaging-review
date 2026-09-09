@@ -1,0 +1,24 @@
+Step-4 full-text eligibility cull
+=================================
+Assessed for eligibility (full text): 181
+Included in qualitative synthesis:    165
+Excluded after full-text assessment:  16
+
+Exclusions by reason (PRISMA):
+    10  quantum sensing / detector physics, not quantum computing  [detector_instrumentation]
+     1  quantum physics phenomenon (entanglement / error-correction), not quantum computing  [quantum_physics_phenomenon]
+     1  quantum-inspired classical method, no quantum computation  [quantum_inspired]
+     2  quantum cellular automata, not gate/annealing quantum computing  [quantum_cellular_automata]
+     2  secondary study (review / perspective)  [review_or_perspective]
+
+Included by paradigm_subcategory:
+    93  hybrid_quantum_classical
+    36  qml
+    15  quantum_kernel
+     7  quantum_image_representation
+     5  annealing
+     2  neqr
+     2  vqe
+     2  frqi
+     2  qaoa
+     1  quantum_arithmetic_logic

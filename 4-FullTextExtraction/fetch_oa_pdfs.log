@@ -1,0 +1,224 @@
+=== fetch_oa_pdfs.py started 2026-05-19 16:20:35 ===
+DOIs to attempt: 102
+[1/102] 10.1080/00207454.2026.2656322
+  -> not retrieved (no_oa_url_advertised)
+[2/102] 10.1140/epjp/s13360-025-06587-4
+  -> not retrieved (no_oa_url_advertised)
+[3/102] 10.1140/epjp/s13360-025-07148-5
+  -> not retrieved (no_oa_url_advertised)
+[4/102] 10.1140/epjqt/s40507-026-00500-3
+  -> RETRIEVED via unpaywall_best_pdf (ok:6185271)
+[5/102] 10.1142/s0218001422520085
+  -> not retrieved (no_oa_url_advertised)
+[6/102] 10.1142/s0218001425500132
+  -> not retrieved (no_oa_url_advertised)
+[7/102] 10.1142/s1469026825500105
+  -> not retrieved (no_oa_url_advertised)
+[8/102] 10.1142/s2010324725400090
+  -> not retrieved (no_oa_url_advertised)
+[9/102] 10.4015/s1016237222500442
+  -> not retrieved (no_oa_url_advertised)
+[10/102] 10.4015/s1016237224500054
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 10/102]
+[11/102] 10.7717/peerj-cs.3387
+  -> not retrieved (all_3_urls_failed)
+[12/102] 10.1063/5.0261878
+  -> not retrieved (no_oa_url_advertised)
+[13/102] 10.1103/physreva.110.063512
+  -> not retrieved (no_oa_url_advertised)
+[14/102] 10.1016/j.acra.2026.01.034
+  -> not retrieved (no_oa_url_advertised)
+[15/102] 10.1016/j.artmed.2025.103322
+  -> not retrieved (no_oa_url_advertised)
+[16/102] 10.1016/j.asoc.2025.113631
+  -> not retrieved (no_oa_url_advertised)
+[17/102] 10.1016/j.bspc.2023.105560
+  -> not retrieved (no_oa_url_advertised)
+[18/102] 10.1016/j.bspc.2026.110251
+  -> not retrieved (no_oa_url_advertised)
+[19/102] 10.1016/j.cmpb.2026.109362
+  -> not retrieved (all_1_urls_failed)
+[20/102] 10.1016/j.compbiomed.2025.110941
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 20/102]
+[21/102] 10.1016/j.compbiomed.2026.111633
+  -> not retrieved (no_oa_url_advertised)
+[22/102] 10.1016/j.eij.2026.100901
+  -> not retrieved (all_1_urls_failed)
+[23/102] 10.1016/j.ejca.2025.115632
+  -> not retrieved (no_oa_url_advertised)
+[24/102] 10.1016/j.ejmp.2026.105780
+  -> not retrieved (no_oa_url_advertised)
+[25/102] 10.1016/j.engappai.2025.111938
+  -> not retrieved (no_oa_url_advertised)
+[26/102] 10.1016/j.ijrobp.2026.03.010
+  -> not retrieved (no_oa_url_advertised)
+[27/102] 10.1016/j.inffus.2023.101913
+  -> not retrieved (no_oa_url_advertised)
+[28/102] 10.1016/j.jestch.2026.102386
+  -> not retrieved (all_1_urls_failed)
+[29/102] 10.1016/j.jrras.2026.102165
+  -> not retrieved (all_1_urls_failed)
+[30/102] 10.1016/j.knosys.2023.110413
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 30/102]
+[31/102] 10.1016/j.knosys.2024.112922
+  -> not retrieved (no_oa_url_advertised)
+[32/102] 10.1016/j.neucom.2023.01.049
+  -> not retrieved (no_oa_url_advertised)
+[33/102] 10.1016/j.neucom.2025.131410
+  -> not retrieved (no_oa_url_advertised)
+[34/102] 10.1016/j.radphyschem.2025.113545
+  -> not retrieved (no_oa_url_advertised)
+[35/102] 10.1016/j.softx.2026.102621
+  -> not retrieved (all_1_urls_failed)
+[36/102] 10.3389/frai.2026.1807209
+  -> RETRIEVED via unpaywall_best_pdf (ok:1967477)
+[37/102] 10.1155/acis/1176614
+  -> not retrieved (all_1_urls_failed)
+[38/102] 10.1109/access.2026.3663498
+  -> not retrieved (all_1_urls_failed)
+[39/102] 10.1109/access.2026.3669206
+  -> not retrieved (all_1_urls_failed)
+[40/102] 10.1109/access.2026.3677204
+  -> not retrieved (all_1_urls_failed)
+  [checkpoint saved at 40/102]
+[41/102] 10.1109/access.2026.3683415
+  -> not retrieved (all_1_urls_failed)
+[42/102] 10.1109/access.2026.3686925
+  -> not retrieved (all_1_urls_failed)
+[43/102] 10.1109/jbhi.2025.3596156
+  -> not retrieved (no_oa_url_advertised)
+[44/102] 10.1109/jbhi.2025.3610855
+  -> not retrieved (no_oa_url_advertised)
+[45/102] 10.1109/jiot.2025.3537614
+  -> not retrieved (no_oa_url_advertised)
+[46/102] 10.1109/jiot.2025.3586090
+  -> RETRIEVED via unpaywall_best_pdf (ok:1415845)
+[47/102] 10.1109/tce.2024.3351649
+  -> not retrieved (no_oa_url_advertised)
+[48/102] 10.1109/tim.2025.3533651
+  -> not retrieved (no_oa_url_advertised)
+[49/102] 10.1109/tns.2022.3140396
+  -> not retrieved (no_oa_url_advertised)
+[50/102] 10.1109/tns.2024.3369972
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 50/102]
+[51/102] 10.1109/tqe.2026.3681530
+  -> RETRIEVED via unpaywall_alt_pdf (ok:1700162)
+[52/102] 10.1088/1361-6560/ae48aa
+  -> not retrieved (no_oa_url_advertised)
+[53/102] 10.1088/1402-4896/ae20d5
+  -> not retrieved (no_oa_url_advertised)
+[54/102] 10.1088/1748-0221/18/11/c11011
+  -> not retrieved (no_oa_url_advertised)
+[55/102] 10.1088/2058-9565/adbcd1
+  -> not retrieved (no_oa_url_advertised)
+[56/102] 10.3390/a19040279
+  -> not retrieved (all_1_urls_failed)
+[57/102] 10.3390/app13064009
+  -> not retrieved (all_1_urls_failed)
+[58/102] 10.3390/bdcc10010012
+  -> not retrieved (all_1_urls_failed)
+[59/102] 10.3390/medsci12040067
+  -> RETRIEVED via europepmc (ok:1028861)
+[60/102] 10.5604/01.3001.0054.9079
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 60/102]
+[61/102] 10.1117/12.3085665
+  -> not retrieved (all_1_urls_failed)
+[62/102] 10.1007/s00261-025-04900-4
+  -> not retrieved (no_oa_url_advertised)
+[63/102] 10.1007/s00521-022-07388-x
+  -> not retrieved (no_oa_url_advertised)
+[64/102] 10.1007/s00521-023-08566-1
+  -> not retrieved (no_oa_url_advertised)
+[65/102] 10.1007/s00521-023-08717-4
+  -> not retrieved (no_oa_url_advertised)
+[66/102] 10.1007/s00521-023-09207-3
+  -> not retrieved (no_oa_url_advertised)
+[67/102] 10.1007/s10278-025-01630-3
+  -> not retrieved (no_oa_url_advertised)
+[68/102] 10.1007/s10586-024-04852-2
+  -> not retrieved (no_oa_url_advertised)
+[69/102] 10.1007/s11082-023-05684-x
+  -> not retrieved (no_oa_url_advertised)
+[70/102] 10.1007/s11082-023-06187-5
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 70/102]
+[71/102] 10.1007/s11082-023-06203-8
+  -> not retrieved (no_oa_url_advertised)
+[72/102] 10.1007/s11128-024-04369-y
+  -> not retrieved (no_oa_url_advertised)
+[73/102] 10.1007/s11128-025-04955-8
+  -> not retrieved (no_oa_url_advertised)
+[74/102] 10.1007/s11128-026-05144-x
+  -> RETRIEVED via unpaywall_best_pdf (ok:1360827)
+[75/102] 10.1007/s11227-024-06740-3
+  -> not retrieved (no_oa_url_advertised)
+[76/102] 10.1007/s11227-025-07266-y
+  -> not retrieved (no_oa_url_advertised)
+[77/102] 10.1007/s11227-025-07789-4
+  -> not retrieved (no_oa_url_advertised)
+[78/102] 10.1007/s11227-025-07939-8
+  -> not retrieved (no_oa_url_advertised)
+[79/102] 10.1007/s11227-025-07963-8
+  -> not retrieved (no_oa_url_advertised)
+[80/102] 10.1007/s11265-025-01973-8
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 80/102]
+[81/102] 10.1007/s11307-025-01990-w
+  -> not retrieved (no_oa_url_advertised)
+[82/102] 10.1007/s11467-024-1391-x
+  -> not retrieved (no_oa_url_advertised)
+[83/102] 10.1007/s11760-023-02857-9
+  -> not retrieved (no_oa_url_advertised)
+[84/102] 10.1007/s12065-024-00971-2
+  -> RETRIEVED via unpaywall_best_pdf (ok:6428943)
+[85/102] 10.1007/s42484-024-00170-3
+  -> not retrieved (no_oa_url_advertised)
+[86/102] 10.1007/s42484-024-00171-2
+  -> not retrieved (no_oa_url_advertised)
+[87/102] 10.1007/s42484-025-00315-y
+  -> not retrieved (no_oa_url_advertised)
+[88/102] 10.1007/s42484-026-00385-6
+  -> RETRIEVED via unpaywall_best_pdf (ok:3943292)
+[89/102] 10.1007/s44443-025-00449-w
+  -> not retrieved (all_1_urls_failed)
+[90/102] 10.1038/s41585-025-01058-y
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 90/102]
+[91/102] 10.1038/s41598-026-35540-3
+  -> RETRIEVED via unpaywall_best_pdf (ok:2819924)
+[92/102] 10.1038/s41598-026-35605-3
+  -> RETRIEVED via unpaywall_best_pdf (ok:1620834)
+[93/102] 10.1038/s41598-026-35951-2
+  -> RETRIEVED via europepmc (ok:3941458)
+[94/102] 10.1038/s41598-026-38063-z
+  -> RETRIEVED via unpaywall_best_pdf (ok:2244537)
+[95/102] 10.1038/s41598-026-40127-z
+  -> RETRIEVED via unpaywall_best_pdf (ok:6147959)
+[96/102] 10.1038/s41598-026-42047-4
+  -> RETRIEVED via unpaywall_best_pdf (ok:1964752)
+[97/102] 10.1038/s41598-026-49227-2
+  -> RETRIEVED via unpaywall_best_pdf (ok:2731786)
+[98/102] 10.1038/s41598-026-51130-9
+  -> RETRIEVED via unpaywall_best_pdf (ok:1850476)
+[99/102] 10.1038/s41598-026-51942-9
+  -> not retrieved (all_1_urls_failed)
+[100/102] 10.1038/s43588-022-00351-9
+  -> not retrieved (no_oa_url_advertised)
+  [checkpoint saved at 100/102]
+[101/102] 10.1002/ima.23015
+  -> not retrieved (no_oa_url_advertised)
+[102/102] 10.1002/jemt.24054
+  -> not retrieved (no_oa_url_advertised)
+
+=== Summary ===
+Total attempted:        102
+Retrieved:              16
+No OA URL advertised:   68
+All OA URLs failed:     18
+Workbook updated:       /home/lpapp/IEEE_SYS_REV/4-FullTextExtraction/step4_candidates_v2.xlsx
+Backup:                 /home/lpapp/IEEE_SYS_REV/4-FullTextExtraction/step4_candidates_v2.xlsx.pre_oafetch.bak

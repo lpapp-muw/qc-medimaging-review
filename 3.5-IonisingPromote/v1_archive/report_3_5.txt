@@ -1,0 +1,61 @@
+Stage 3.5 Summary Report
+========================
+
+Total verdicts: 146
+
+Verdict distribution:
+  promote_to_IN           4
+  stay_OUT              142
+
+Confidence distribution (overall):
+  high                  146
+
+Verdict x Confidence cross-tab:
+  promote_to_IN    x high   :    4
+  stay_OUT         x high   :  142
+
+Modality distribution among promote_to_IN (4 total):
+  PET                                 4
+
+Promoted records (full list):
+--------------------------------------------------------------------------------
+  record_id : http://zotero.org/users/19517875/items/LS2JK9MW
+  doi       : 10.1109/trpms.2024.3388872
+  title     : Quantum Entanglement Filtering: A PET Feasibility Study in Imaging Dual-Positron and Prompt Gamma Emission via Monte Carlo Simulation
+  modality  : PET
+  confidence: high
+  modality_q: PET Feasibility Study
+  context_q : CZT detectors to lead next generation PET systems taking full advantage of the QE information of positron annihilation photons
+  reasoning : Quantum entanglement filtering is described as a component technology for next-generation PET systems using CZT detectors to exploit quantum entanglement information.
+
+  record_id : http://zotero.org/users/19517875/items/4A3ACMFU
+  doi       : 10.1088/1748-0221/18/07/p07007
+  title     : Background reduction in PET by double Compton scattering of quantum entangled annihilation photons
+  modality  : PET
+  confidence: high
+  modality_q: positron emission tomography (PET)
+  context_q : utilized the quantum entanglement property of annihilation photons in a typical PET system
+  reasoning : Quantum entanglement property of annihilation photons is used as a component within a PET system for background reduction.
+
+  record_id : http://zotero.org/users/19517875/items/SZIHV3W3
+  doi       : 10.1038/s41467-021-22907-5
+  title     : Photon quantum entanglement in the MeV regime and its application in PET imaging
+  modality  : PET
+  confidence: high
+  modality_q: Positron Emission Tomography (PET)
+  context_q : the two annihilation photons are predicted to be produced in a quantum-entangled state, resulting in enhanced correlations between their subsequent interaction processes
+  reasoning : Quantum entanglement of annihilation photons is used as part of the PET imaging detection system to improve background rejection.
+
+  record_id : http://zotero.org/users/19517875/items/8Z8TZ8D7
+  doi       : 10.1038/s41598-025-32951-6
+  title     : Machine learning-assisted event classification in cadmium zinc telluride positron emission tomography detectors leveraging entanglement-informed angular correlations
+  modality  : PET
+  confidence: high
+  modality_q: Positron Emission Tomography (PET) systems
+  context_q : machine-learning framework that exploits these quantum-encoded features to resolve true lines of response (LORs) and reject random coincidences in a dual-panel cadmium zinc telluride (CZT) system
+  reasoning : Entanglement-informed angular correlations are used as signal-processing elements in a CZT-based PET detector system for event classification.
+
+
+Low-confidence stay_OUT verdicts (candidates for adjudication, 0 total):
+--------------------------------------------------------------------------------
+  (none)

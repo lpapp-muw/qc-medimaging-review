@@ -1,0 +1,36 @@
+rescue_v2_quarantine_v2.py report
+============================================================
+Quarantine entries processed:    298
+
+Final disposition:
+  rescued                              220
+  requeue_for_rescreening               72
+  no_record_match                        6
+
+Primary evaluation breakdown:
+  PASS_RELAXED                         169
+  FAIL                                  72
+  PASS_FIELD_SWAP_VERBATIM              27
+  PASS_FIELD_SWAP_RELAXED               19
+  PASS_VERBATIM                          5
+
+Secondary evaluation breakdown:
+  NONE                                 271
+  PASS_VERBATIM                         15
+  PASS_FIELD_SWAP_RELAXED                5
+  PASS_FIELD_SWAP_VERBATIM               1
+
+Rescued verdicts appended to verdicts.jsonl:  220
+Records re-queued for re-screening:           52
+Still quarantined (unrescuable):              6
+
+Audit flags on rescued verdicts:
+  _quote_rescued:                quote matched via relaxed Unicode normalization
+  _evidence_field_corrected:     quote was found in the OTHER field (title vs abstract)
+  _secondary_stripped:           secondary was string or its quote failed; set to null
+  _secondary_failed_quote:       (audit) original secondary quote text that failed verification
+  _quote_unverified:             primary quote unverifiable AND no text in source
+
+Backups created:
+  v2_active/quarantine.jsonl.pre_rescue_v2.bak
+  v2_active/verdicts.jsonl.pre_rescue_v2.bak

@@ -1,0 +1,14 @@
+{
+  "description": "DOIs for which neither v1 nor v2 retrieved a title or abstract. PRISMA exclusion reason: 'no metadata retrievable from any source'.",
+  "count": 8,
+  "dois": [
+    "10.11972/j.issn.1001-9014.2025.05.001",
+    "10.12693/aphyspola.148.8105",
+    "10.16476/j.pibb.2023.0447",
+    "10.22967/hcis.2023.13.045",
+    "10.3233/xst-240104press",
+    "10.3807/copp.2022.6.1.092",
+    "10.7536/pc221024",
+    "10.9714/psac.2024.26.4.001"
+  ]
+}

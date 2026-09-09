@@ -1,0 +1,127 @@
+{
+  "_doc": "Frozen crosswalk and method for human-vs-AI extraction inter-rater reliability (Stage 6). Deposited as the OSF artifact backing the section 12 kappa claim. This file plus kappa.py reproduce the reported value.",
+  "review": "Quantum Computing for Medical Imaging Applications (IEEE TRPMS)",
+  "method": "Composite Cohen's kappa by stratified pooling. Observed agreement P_o pooled across all scored cells. Chance term P_e = cell-count-weighted average of each field's own marginal chance agreement (sum_k p_h(k)*p_a(k) per field). kappa=(P_o-P_e)/(1-P_e). Not a naive pooled confusion matrix.",
+  "scope": "Human-filled extraction cells compared against the corresponding AI cell. Cells filled on only one side are coverage gaps and excluded.",
+  "locked_parameters": {
+    "crosswalk": "frozen as in this file",
+    "one_sided_not_reported": "excluded as coverage gap",
+    "genuine_categorical_diffs": "included in kappa (not sequestered)",
+    "data_release_on_request": "human value containing an on-request marker counts as NOT released (false), overriding any yes prefix",
+    "overall_kappa_definition": "composite stratified (this file's method); NOT simple mean of per-field kappa",
+    "acceptance_threshold": 0.61
+  },
+  "field_partition": {
+    "categorical_scored": [
+      "modality_primary",
+      "modality_secondary",
+      "imaging_task",
+      "anatomy",
+      "translational_level",
+      "paradigm",
+      "hardware_modality",
+      "real_or_simulator",
+      "simulator_framework",
+      "transpilation_level",
+      "image_encoding",
+      "error_mitigation_type",
+      "cross_validation_strategy",
+      "baseline_rigour_grade",
+      "explainability_mechanism",
+      "reporting_standard_adherence"
+    ],
+    "boolean_scored": [
+      "regulatory_pathway_addressed",
+      "prospective_clinical_present",
+      "classical_baseline_present",
+      "external_test_set",
+      "statistical_testing_present",
+      "code_release",
+      "data_release",
+      "weights_release"
+    ],
+    "excluded_from_kappa": {
+      "dataset_type": "human wrote free-text dataset descriptions, not the enum",
+      "dataset_realism_grade": "human used low/moderate/high scale; AI used source-type enum (different construct)",
+      "clinical_impact_claim": "human boolean not_reported vs AI extracted claim sentence",
+      "computational_cost_training": "human yes/no vs AI free-text cost",
+      "computational_cost_inference": "human yes/no vs AI free-text cost",
+      "sample_size_justification_reported": "human wrote rationale prose, not boolean (decision 4: exclude)",
+      "external_validation_used": "human wrote rationale prose, not boolean (decision 4: exclude)"
+    }
+  },
+  "normalisation": {
+    "absent_family_to_NULL": [
+      "",
+      "none",
+      "none_reported",
+      "nor reported",
+      "not reported",
+      "not_reported"
+    ],
+    "whole_string_aliases": {
+      "radiography": "x-ray",
+      "hybrid_quantum_classic": "hybrid_quantum_classical",
+      "hybrid_classical_quantum": "hybrid_quantum_classical",
+      "hybrid-quantum-classical": "hybrid_quantum_classical",
+      "qiskit": "qiskit_aer",
+      "hardware-aware": "hardware_aware_mapping",
+      "retrospective": "retrospective_clinical",
+      "retrospective clinical evaluation": "retrospective_clinical",
+      "both?": "both",
+      "not reported (simulator)": "simulator"
+    },
+    "token_aliases": {
+      "radiography": "x-ray",
+      "qiskit": "qiskit_aer",
+      "hardware-aware": "hardware_aware_mapping",
+      "hybrid_quantum_classic": "hybrid_quantum_classical",
+      "hybrid-quantum-classical": "hybrid_quantum_classical",
+      "hybrid_classical_quantum": "hybrid_quantum_classical"
+    },
+    "granularity_collapse_lenient": {
+      "qcnn": "qml",
+      "qnn": "qml",
+      "vqc": "hybrid_quantum_classical",
+      "qpca": "qml",
+      "qica": "qml",
+      "hhl": "qml",
+      "qsvm": "quantum_kernel",
+      "qpso": "quantum_kernel",
+      "quantum kernel": "quantum_kernel",
+      "quantum annealing": "annealing",
+      "qgan": "qml",
+      "quantum random walk": "qml",
+      "grover": "other",
+      "pqc": "hybrid_quantum_classical",
+      "pqc (grover)": "other",
+      "qsvm (quantum support vector machine)": "quantum_kernel",
+      "angle (zzfeaturemap)": "angle",
+      "zzfeaturemap": "angle",
+      "unary amplitude": "amplitude",
+      "brain": "neurology",
+      "lung": "pulmonology",
+      "lungs": "pulmonology",
+      "feature importance": "classical_xai"
+    },
+    "boolean_rule": "human: lowercased value startswith 'yes' -> true, else false. AI: literal true/false token.",
+    "data_release_on_request_markers": [
+      "on request",
+      "upon request",
+      "by request",
+      "on demand"
+    ],
+    "cross_validation_rule": "contains 'fold' -> k_fold; contains 'split' or '%' or a digit-digit ratio -> holdout; not-reported family -> NULL.",
+    "multivalue": "split on ';' or ',', normalise each token, form a set.",
+    "matching_relation_lenient": "sets share at least one token OR one set is a subset of the other -> agree."
+  },
+  "results": {
+    "kappa_vocabulary_normalised": 0.6693,
+    "observed_agreement": 0.8815,
+    "P_e": 0.6416,
+    "N_scored_cells": 329,
+    "kappa_alias_only_floor": 0.449,
+    "floor_observed_agreement": 0.7964,
+    "interpretation": "Both numbers are reported. The floor isolates synonym/format normalisation only; the difference to the normalised value reflects granularity collapse and subset-overlap scoring. The crosswalk was developed on the observed human-AI pairs (data-derived, not blind) and is disclosed as such."
+  }
+}

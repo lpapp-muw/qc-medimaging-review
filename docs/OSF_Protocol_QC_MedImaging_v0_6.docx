@@ -1,0 +1,512 @@
+*OSF Protocol: QC for Medical Imaging, v0.2 draft (Stage 3.5 locked)*
+
+**Systematic Review Protocol**
+
+**Quantum Computing for Medical Imaging Applications**
+
+*Target journal: IEEE Transactions on Radiation and Plasma Medical Sciences (TRPMS)*
+
+*Protocol version 0.6 (concise edit; same content as v0.5): 2026-05-19*
+
+| *Notice for co-authors: this is a pre-registration protocol intended for deposit on the Open Science Framework (OSF) Registries using the Generalized Systematic Review Registration template. Once deposited, the form text becomes a frozen public record; changes after submission require formal Registration Updates with justification, and uploaded files cannot be replaced. Please review and edit this draft fully before sign-off. Items marked [PLACEHOLDER] require your input. The registration will explicitly disclose that the database search and abstract screening (Steps 1 to 3) were executed prior to deposit; full-text screening (Step 4) onwards is prospective.* |
+| --- |
+
+# 1. Administrative information
+
+## 1.1 Title
+
+Quantum computing for medical imaging applications: a systematic review.
+
+## 1.2 Authors and affiliations
+
+Corresponding author:
+
+- Laszlo Papp, Center for Medical Physics and Biomedical Engineering, Medical University of Vienna; Comprehensive Center for AI in Medicine, Medical University of Vienna; contact: laszlo.papp@meduniwien.ac.at.
+ORCID: 0000-0002-9049-9989
+
+Co-authors (to be confirmed and listed in agreed order):
+
+**[PLACEHOLDER: **Quantum computing expert(s): name, affiliation, contact, ORCID.**]**
+
+**[PLACEHOLDER: **AI / medical imaging expert(s): Mathieu Hatt, LaTIM, INSERM, UMR 1101, Univ Brest, Brest, France, mathieu.hatt@inserm.fr, ORCID 0000-0002-8938-8667.**]**
+
+**[PLACEHOLDER: **Clinical / radiology expert(s): Margarita Kirienko. Fondazione IRCCS Istituto Nazionale dei Tumori, Milan, Italy; [margarita.kirienko@istitutotumori.mi.it](mailto:margarita.kirienko@istitutotumori.mi.it); ORCID 0000-0002-3923-1151.**]**
+
+Author contributions will follow the ICMJE criteria and will be specified explicitly in the final manuscript.
+
+## 1.3 Anticipated start and completion dates of the review
+
+Start (database search executed): 30 January 2026.
+
+Anticipated completion (manuscript submission): Q3 2026.
+
+## 1.4 Funding
+
+**[PLACEHOLDER: **Funding sources for this review, if any (grant numbers, sponsors). If unfunded, state "This work received no specific external funding."**]**
+
+## 1.5 Conflicts of interest
+
+**[PLACEHOLDER: **Each author to declare relevant financial and non-financial conflicts of interest, including industry ties to quantum hardware or imaging vendors.
+
+**Mathieu Hatt, Margarita Kirienko: nothing to declare.]**
+
+## 1.6 Registration
+
+This protocol will be deposited in the Open Science Framework (OSF) Registries using the Generalized Systematic Review Registration template. The OSF DOI will be obtained at deposit and reported in the final manuscript.
+
+Registration timing disclosure: This is a retrospective registration with respect to the database search and abstract-level screening, which were executed in January to May 2026 prior to deposit. Registration is prospective with respect to the full-text screening, data extraction, and synthesis stages, which had not commenced at the time of deposit. This timing distinction is disclosed explicitly here, will be repeated in the Methods and Limitations sections of the manuscript, and is consistent with PRISMA 2020 item 24.
+
+PROSPERO was not used because PROSPERO accepts only prospective registrations submitted before data extraction. The IEEE TRPMS author guidelines do not mandate any specific registry.
+
+# 2. Background and rationale
+
+     Quantum computing is an emerging computational paradigm that exploits superposition, entanglement, and interference. Over the past decade, hardware platforms (superconducting, trapped-ion, photonic, neutral-atom) have matured into cloud-accessible services, and hybrid quantum-classical algorithms (VQE, QAOA, QML) have emerged as candidates for noisy intermediate-scale quantum (NISQ) applications.
+
+Medical imaging is computationally intensive (reconstruction, segmentation, classification, denoising, radiomics, dosimetry simulation), and classical machine learning is increasingly bounded by data, energy, and scaling limits. Quantum computing has been proposed as a complementary or alternative computational substrate. Published claims are however heterogeneous in scope and rigour, and the term "quantum" is frequently overloaded onto adjacent fields (quantum dots, fluorescence probes, magnetometry, ghost imaging, quantum cryptography, "quantum-inspired" classical methods), making a systematic review necessary to delineate the field.
+
+This review was invited by the Editor-in-Chief of IEEE Transactions on Radiation and Plasma Medical Sciences. The journal's editorial scope is technical and clinical research on ionising-radiation imaging hardware and software, including reconstruction, analysis, fusion, radiomics, and AI. The Editor has explicitly requested that the review include a substantial applications section in addition to technical content.
+
+# 3. Objectives and research questions
+
+Primary objective: characterise the state-of-the-art of quantum-computing methods applied to medical imaging tasks, as published in peer-reviewed journal articles in 2021 to 2026.
+
+Specific research questions:
+
+- Which medical imaging tasks have been addressed using quantum-computing methods?
+
+- Which imaging modalities (CT, PET, SPECT, MRI, ultrasound, X-ray, fundus, histopathology, dermoscopy) appear most often, and what is the distribution with respect to ionising-radiation modalities?
+
+- What datasets are used (real clinical, public benchmark, synthetic), what are the typical sample sizes, and to what extent are classical baselines reported?
+
+- Which quantum-computing paradigms (QML, VQE, QAOA, quantum kernels, FRQI, NEQR, hybrid quantum-classical, quantum annealing) are most frequently used, and on which hardware platforms or simulator frameworks? 
+
+- What validation strength is demonstrated (cross-validation, external validation, statistical testing, reproducibility)? 
+
+- What clinical translational maturity is demonstrated, and which application areas appear closest to clinical usefulness?
+
+- What are the open methodological and engineering challenges identified by the field, including hardware constraints (qubit count, decoherence), software constraints (compilation, error mitigation), and data constraints (encoding of medical images into quantum states)?
+
+- What fraction of papers report hardware-aware circuit synthesis, mapping, or transpilation optimisations for the executing platform, and how does that correlate with translational-maturity claims?
+
+- What is the distribution by geography (country of corresponding author), by publication venue, and between academic and industrial / private-sector affiliations?
+
+# 4. Eligibility criteria
+
+## 4.1 Inclusion criteria
+
+- Peer-reviewed journal articles.
+
+- Published between 1 January 2021 and the search date 30 January 2026.
+
+- Written in English.
+
+- Describing the implementation, simulation, or evaluation of a quantum-computing method (QML, VQE, QAOA, quantum kernels, FRQI, NEQR, parameterised quantum circuits, hybrid quantum-classical pipelines) on either real quantum hardware (e.g. IBM Quantum, IonQ, Rigetti, Quantinuum, Pasqal, QuEra) or a quantum simulator (e.g. Qiskit Aer, PennyLane, Cirq, Microsoft QDK, Strawberry Fields).
+
+- Applied to a medical imaging task, including but not limited to reconstruction, analysis, segmentation, classification, denoising, super-resolution, radiomics, multi-modal fusion, instrumentation, and dosimetry simulation.
+
+## 4.2 Exclusion criteria
+
+- Conference papers, abstracts, theses, preprints, editorials, commentaries, letters to the editor, retracted papers and papers published in recognized predatory journals.
+
+Operational definition of “predatory journal” for the exclusion criterion above. The judgement is fully deterministic from external sources; no human appraisal of the journal is performed by the review team. A paper is excluded only when BOTH (i) and (ii) below are simultaneously true.
+
+(i) Flag: the publishing journal appears, at the date of Stage 4 candidate review, on EITHER Cabells Predatory Reports (accessed via Medical University of Vienna institutional subscription where available; criteria version 1.1; the journal name, ISSN, flag reason, and date of access are recorded) OR the Retraction Watch Hijacked Journal Checker (freely available at retractionwatch.com; the journal name, ISSN, original-journal reference where given, and date of access are recorded). Beall’s List is NOT used (discontinued by its author in January 2017).
+
+(ii) No override: the same journal is NOT currently indexed in MEDLINE (NLM-curated; the PubMed citation status must read “indexed for MEDLINE” — PMC deposit alone is insufficient) AND NOT currently indexed in Web of Science Core Collection at the level of SCIE, SSCI, or AHCI (the Emerging Sources Citation Index (ESCI) is insufficient because it is an entry-tier list). Indexing in either MEDLINE or WoS Core constitutes the auto-retain override.
+
+Audit record. For every paper for which the flag step (i) returns positive, the following are appended to the audit log regardless of whether the override applies: DOI, journal name, ISSN, flag source(s) with URL and date of access, override source(s) with URL and date of access, and final decision (exclude / retain). Expected number of exclusions in the present corpus: very low, because the corpus is sourced from PubMed, Web of Science Core Collection, and IEEE Xplore, all of which apply curation gates that largely preclude predatory titles by construction.
+
+- Papers in languages other than English.
+
+- Papers published before 2021 or after the search date.
+
+- Papers on nanomaterial quantum dots, carbon dots, graphene quantum dots, or other quantum-dot chemistry without an algorithmic quantum-computing component.
+
+- Papers on nano-therapeutics, photothermal therapy, photodynamic therapy, drug delivery, nanoparticle theranostics.
+
+- Papers on fluorescence probes, fluorescent dyes, near-infrared probes, biosensors, fluorescence microscopy, without a quantum-computing component.
+
+- Papers on quantum sensing for biomedicine (optically pumped magnetometry, nitrogen-vacancy magnetometry, ghost imaging, quantum illumination, single-photon imaging) without an algorithmic quantum-computing component. Note: an exception applies to quantum-sensing papers whose imaging context is ionising-radiation imaging (e.g. PET detector physics, SPECT, photon-counting CT, gamma cameras); these are subject to a dedicated sub-screening step (Step 3.5) described under Selection process.
+
+- Papers on quantum cryptography, quantum key distribution, watermarking, blockchain applied to medical images.
+
+- Papers using "quantum-inspired" classical algorithms (tensor networks executed on classical hardware, simulated annealing branded as quantum) without quantum hardware or simulator execution.
+
+- Papers on classical AI / ML / DL / deep learning for medical imaging with no quantum-computing component.
+
+- Papers on clinical trials, biomarker analysis, epidemiology, or outcomes research without an imaging methodology component.
+
+- Minimum reporting? (e.g. dataset, qubit count, circuit depth, evaluation metric, classical comparator)
+
+## 4.3 Outcomes considered
+
+Because the review concerns a methodological field rather than a clinical intervention, the outcomes of interest are methodological and descriptive:
+
+- Reported imaging-task performance metrics (PSNR, SSIM, dice score, accuracy, AUC, etc.).
+
+- Reported quantum-resource metrics (qubit count, circuit depth, gate count, training cost).
+
+- Reported comparisons with classical baselines. (Quantum advantage)
+
+- Reported validation strength (cross-validation, external validation, statistical testing, reproducibility). Reproducibility (open code, reproducible pipeline, parameter transparency)
+
+- Reported translational maturity (proof of concept, in-silico evaluation, retrospective clinical evaluation, prospective clinical evaluation).
+
+# 5. Information sources
+
+Three bibliographic databases were searched on 30 January 2026:
+
+- PubMed.
+
+- Web of Science Core Collection.
+
+- IEEE Xplore.
+
+No additional databases (e.g. Scopus, Embase, Google Scholar) were searched. This is a deliberate scope limitation and is acknowledged under Known limitations.
+
+No grey-literature, hand-searching, citation-chasing, or expert-contact strategies were used.
+
+Two-pass design (v1 and v2). The v1 pilot pass applied the available open-access filters at PubMed (free full text) and IEEE Xplore (open access) to keep the corpus tractable for taxonomy development. After the 10-category Stage 3 taxonomy was locked on the v1 corpus, the same queries were re-executed on the same search date (30 January 2026) with the open-access filters removed, producing the v2 full corpus of 6847 unique DOIs (versus 2977 in v1). The v2 pass screened all v2 records through the v1-locked taxonomy, reusing v1 verdicts for the 2874 DOIs whose abstracts were identical to v1 (provenance flag _reused_from_v1) and freshly screening the 3963 v2-only records. The v2 corpus is the canonical screening corpus.
+
+# 6. Search strategy
+
+Verbatim search strings used on 30 January 2026, by database:
+
+### 6.1 PubMed
+
+(quantum) AND (medical OR clinical) AND (imaging OR image)
+
+Filters: last 5 years, free full text, English, exclude preprints, page size 200.
+
+### 6.2 Web of Science Core Collection
+
+(ALL=(quantum)) AND (ALL=(medical) OR ALL=(clinical)) AND
+
+(ALL=(imaging) OR ALL=(image))
+
+No filters at query time; language, article type, and year applied later in Zotero.
+
+### 6.3 IEEE Xplore
+
+("All Metadata":quantum) AND
+
+("All Metadata":medical OR "All Metadata":clinical) AND
+
+("All Metadata":imaging OR "All Metadata":image)
+
+Filters: open access, 2021-2026, journals only.
+
+Raw hit counts on the search date: PubMed 1569; Web of Science 2201; IEEE Xplore 123; total raw 3893.
+
+Search-URL artefacts (the full URLs of the executed queries) are preserved in the OSF Project supplementary file query_Links.txt.
+
+Search-strategy limitations:
+
+- Only the literal keyword "quantum" was used as the core concept; synonyms (QML, VQE, QAOA, qubit, parameterised quantum circuit) were not added, to keep the search reproducible and to avoid term explosion.
+
+- The five-year window 2021 to 2026 excludes pre-2021 foundational papers, which are cited as background but not systematically screened.
+
+# 7. Selection process
+
+The selection process is structured as a multi-stage pipeline. Stages 1 to 3 were executed prior to OSF registration. Stages 3.5 and 4 are prospective at the time of registration.
+
+## 7.1 Stage 1: DOI consolidation and deduplication
+
+Raw export files from each database were consolidated into a single workbook. DOIs were lower-cased and deduplicated by exact string match. Cross-database overlap (e.g. an IEEE Xplore paper also indexed in Web of Science) was handled by this lower-case deduplication. v1 pilot pass: raw 3893 unique DOIs reduced to 2977 after deduplication. v2 full pass (same search date, open-access filters removed): raw 8961 unique DOIs reduced to 6847 after deduplication. v1 and v2 share 2904 DOIs in common, with 74 DOIs unique to v1 (subsequently verified as out-of-scope) and 3943 DOIs unique to v2.
+
+## 7.2 Stage 2: Zotero import, metadata enrichment, manual filtering
+
+The 2977 DOIs imported into Zotero produced 2978 records by internal ingest. Manual flagging identified 4 hard exclusions (2 retracted, 1 within-corpus content duplicate, 1 non-English) and 187 records flagged for full-text accessibility (143 inaccessible, 44 paywalled) but retained for abstract-level screening. v1 records entering Stage 3: 2974.
+
+Total entering Stage 3 in the v2 full pass: 6839 records. The v2 pass did not repeat the Zotero-based manual filtering of the v1 pilot, because the v2 expansion fetched bibliographic metadata and abstracts directly from Crossref, OpenAlex, and EuropePMC for all 3943 newly-added DOIs (provenance flags v2_crossref, v2_openalex, v2_europepmc); paywall and open-access status are not applicable to abstract-level screening. Eight v2 DOIs had no retrievable title or abstract from any of the three APIs after two recovery rounds (initial fetch plus title-only retry) and were PRISMA-excluded as "no metadata retrievable from any source". Their DOIs are documented in v2_active/no_metadata_retrievable.json in the supplementary file bundle.
+
+## 7.3 Stage 3: Abstract recovery and AI-assisted scope screening
+
+Abstracts were recovered through three external metadata APIs (Crossref, OpenAlex, EuropePMC) in that order, with first-hit short-circuit logic. For v1 pilot records remaining without an abstract after this stage, local PDF text extraction (pdftotext with column-mode fallback; Tesseract OCR as further fallback) was used to recover the abstract from the first two pages of the PDF. Abstract validation rules applied during merge: minimum 250 characters, minimum 30 words, not a placeholder string, not substring-contained in the title in either direction, token Jaccard with title below 0.7. v1 pilot abstract coverage: 2951 of 2974 records (99.2 percent), 23 title-only. v2 full pass abstract coverage: 3097 of 3965 v2-only records have a retrieved abstract (78.1 percent), 868 are title-only after the abstract validation step but 860 of those 868 had their title recovered from Crossref in a dedicated title-only retry; the remaining 8 are the records excluded under "no metadata retrievable" above. v1 records reused in v2: 2874 verdicts directly inherited from v1 with the _reused_from_v1 audit flag, valid because the abstract retrieval produced identical text.
+
+     Each Stage 3 record was classified into one of ten mutually-exclusive categories by an AI-assisted screening pipeline. The 10-category taxonomy was locked on the v1 pilot corpus and applied unchanged to the v2 full corpus. The classifier was Claude Opus 4.7 with extended thinking, deployed via the Claude Code interactive environment as isolated subagents (one subagent per batch of up to five records). The classification scheme and decision rule are described in section 8. v2 final outcome: 6839 verdicts produced (3965 v2-only freshly screened, 2874 reused from v1; 8 PRISMA-excluded above), with 179 records classified QC_FOR_IMAGING (120 high confidence, 59 low confidence). Per-category and per-pass distributions are tabulated in section 8.
+
+Hallucination controls: every verdict carries a verbatim evidence quote drawn from title or abstract, programmatically validated as a substring of the source field (whitespace/case normalised); every verdict is schema-validated against fixed JSON; every model call is logged (model ID, prompt hash, raw response, latency, validation outcome); records failing validation are quarantined and rescued via relaxed-substring or field-swap matching, with rescued verdicts carrying audit flags (_quote_rescued, _evidence_field_corrected, _secondary_stripped, _quote_unverified); a small number of records required manual category assignment (audit flag _manual; documented in the audit log).
+
+Records flagged as IN-scope at this stage are those classified as QC_FOR_IMAGING. Confidence is reported as high or low. Records classified QC_FOR_IMAGING with high confidence are designated IN-scope yes; QC_FOR_IMAGING with low confidence are designated IN-scope uncertain; all other categories are designated OUT-of-scope.
+
+## 7.4 Stage 3.5: Sub-screening of quantum-sensing for ionising-radiation imaging context (prospective)
+
+**Rationale. Records assigned to QUANTUM_SENSING_BIOMED in Stage 3 are not IN-scope by default because the journal focus is on ionising-radiation imaging. A subset of these records may, however, address ionising-imaging modalities even though the quantum technology is sensing rather than computing. To avoid losing such records on category grounds alone, every QUANTUM_SENSING_BIOMED record is passed through a second narrower screen with the specification below. The v1 pilot screened 146 records (4 promotes, all PET). The v2 full pass screened the 96 v2-only QUANTUM_SENSING_BIOMED records (i.e. records with this category in v2 that were not already screened in v1), producing 8 promotes spanning PET, radiotherapy dosimetric imaging, proton radiography, planar X-ray, and CT modalities. The combined v1+v2 Step-3.5 set is 12 promote_to_IN verdicts.**
+
+**Ionising-modality whitelist. **A record qualifies only if its title or abstract verbatim references at least one of the following ionising-imaging modalities: positron emission tomography (PET) including time-of-flight PET, total-body PET, PET-CT, and PET-MRI; single-photon emission computed tomography (SPECT); photon-counting computed tomography; conventional X-ray computed tomography; planar X-ray, fluoroscopy, or mammography; gamma cameras or scintigraphy; Compton cameras; proton computed tomography or proton radiography; radiation-therapy dosimetric imaging including electronic portal imaging devices (EPID) and in-vivo dosimetry; and radiation-detector physics for any of the above. Explicitly outside the whitelist: magnetic resonance imaging, ultrasound, optical coherence tomography, fundus photography, microscopy, histopathology, magnetoencephalography, electroencephalography.
+
+**Decision rule. **A record is promoted to IN-scope only if both conditions hold: (i) at least one whitelist modality is mentioned verbatim in the title or abstract; (ii) the quantum-sensing technology is described as a component of the ionising-imaging system, that is, as a detector, a signal-processing element, or an imaging-pipeline component. A passing mention of an ionising-imaging modality without a quantum-sensing role does not satisfy condition (ii) and the record remains OUT-of-scope.
+
+**AI subagent. The screen is performed by a dedicated Claude Code subagent named ionising-promote, distinct from the Stage 3 screen-papers subagent. Model: Claude Opus 4.7 with extended thinking. The full subagent definition, including output schema and worked example, is in supplementary file ionising-promote.md. The same hallucination controls as Stage 3 apply.**
+
+**Human cross-check rates. **One hundred percent of promote_to_IN verdicts are cross-checked by at least one co-author before the promoted records enter Stage 4. Ten percent of stay_OUT verdicts are sampled at random and cross-checked by at least one co-author to estimate the false-negative rate of the sub-screen; the estimated false-negative rate is reported in the manuscript.
+
+**Low-confidence adjudication. **Any verdict marked low confidence, in either direction, is escalated to two co-authors for independent adjudication. Disagreement between the two adjudicators is resolved by a third co-author acting as tiebreaker.
+
+**Observed yield (v1 + v2 combined). The v1 pilot sub-screen of 146 records produced 4 promote_to_IN verdicts (all PET, all high confidence). The v2 full-corpus sub-screen of 96 additional QUANTUM_SENSING_BIOMED records produced 8 promote_to_IN verdicts, distributed as 3 PET, 2 radiotherapy dosimetric imaging, 1 proton radiography, 1 planar X-ray, 1 CT (all high confidence). Combined 12 promotes from 242 sub-screened records (4.96 percent), which falls below the a priori planning estimate of 10 to 25 promotes; the observed yield is reported as the canonical figure.**
+
+**Documentation. Sub-screen outcomes (promote_to_IN verdicts, stay_OUT-sample false-negative-rate estimate, and any adjudication outcomes) are recorded in a Transparent Changes entry on the OSF Project page.**
+
+## 7.5 Stage 4: Full-text screening (prospective)
+
+All IN-scope candidates from Stages 3 and 3.5 will be re-screened against the full PDF text using stricter criteria than the abstract-level screening. The stricter criteria are:
+
+- The paper must implement (not merely mention or motivate) a quantum-computing method.
+
+- Required evidence in the full text: explicit identification of the quantum platform (hardware or simulator), report of qubit count and / or circuit depth, identification of the medical-imaging task and modality.
+
+- Papers that fail any of these stricter criteria will be designated false positives and excluded from the synthesis, with the exclusion reason recorded.
+
+Full-text screening will be performed by an AI-assisted pipeline analogous to Stage 3 (Claude Opus 4.7 via Claude Code subagents), with quote-grounding from the full PDF text rather than abstract only. Every AI verdict will be cross-checked by a human co-author. For records lacking a locally available PDF, the corresponding author will attempt retrieval through the Medical University of Vienna institutional access; records for which the full text cannot be retrieved will be excluded from the synthesis under the PRISMA exclusion reason "full text not retrievable" and explicitly listed in the manuscript.
+
+## 7.6 Stage 5: Subcategorisation (prospective)
+
+Confirmed true-positive papers will be assigned subcategory tags aligned with the editor's content areas: reconstruction, analysis, segmentation, classification, denoising, super-resolution, radiomics, multi-modal fusion, instrumentation, dosimetry. Multiple tags may apply to a single paper. The subcategorisation will be AI-assisted with human cross-check.
+
+The subcategorisation is multi-axis. Four orthogonal axes are applied to every IN-scope paper. The manuscript Results section will organise the technical content by Axis B (quantum paradigm) and the applications content by Axis A (imaging task) × Axis C (imaging modality with ionising-radiation flag); Axis D (quantum-hardware execution context with hardware-aware compilation level) appears as a cross-tab and as a maturity signal in every subsection.
+
+**Axis A** — Imaging task (10 multi-label tags as above), aligned with the editor's content areas.
+
+**Axis B** — Quantum paradigm (mutually exclusive primary tag): quantum machine learning (QNN, QCNN), quantum kernel methods (QSVM, quantum kernel estimation, quantum kernel training), variational algorithms (VQE, VQA, VQC), QAOA and quantum optimisation, quantum annealing and QUBO formulations, FRQI/NEQR encoding-based pipelines, hybrid quantum-classical, quantum-inspired (no QPU execution), other.
+
+**Axis C** — Imaging modality with binary ionising-radiation flag derived deterministically from the modality. Ionising modalities = {PET, SPECT, CT, photon-counting CT, planar X-ray, mammography, fluoroscopy, gamma camera, scintigraphy, Compton camera, proton CT, proton radiography, EPID and in-vivo dosimetric imaging}; non-ionising = {MRI, ultrasound, OCT, fundus, histopathology, dermoscopy, microscopy}.
+
+**Axis D** — Quantum-hardware execution context = {ideal simulator, noisy simulator, real QPU (vendor and qubit modality reported separately)} combined with compilation level = {none reported, default transpilation, hardware-aware mapping, pulse-level optimisation}.
+
+In addition to the four primary axes, the manuscript Results section reports a cross-cutting layer of methodological-quality flags from §9 and §10: baseline-rigour grade, encoding scheme, dataset-realism grade, reporting-standard adherence (CLAIM 2024, TRIPOD+AI 2024, METRICS 2024), reproducibility tier, quantum-resource accounting completeness score, error-mitigation strategy clarity, explainability mechanism reported, and clinical-translation readiness composite score.
+
+# 8. Categorisation taxonomy (Stage 3)
+
+Ten mutually-exclusive categories were locked before screening began. The IN-scope category is QC_FOR_IMAGING; all others are OUT-of-scope (with two categories explicitly noted as borderline).
+
+| **Code** | **Description** | **Verdict** |
+| --- | --- | --- |
+| QC_FOR_IMAGING | Quantum-computing methods (QML, VQE, QAOA, quantum kernels, FRQI, NEQR, hybrid quantum-classical) executed on quantum hardware or simulators applied to medical imaging tasks. | IN |
+| QUANTUM_DOTS | Nanomaterial chemistry of quantum dots, carbon dots, graphene quantum dots, photoluminescence applications. | OUT |
+| NANO_THERAPEUTICS | Drug delivery, photodynamic therapy, photothermal therapy, theranostics, nanoparticle therapy. | OUT |
+| FLUORESCENCE_PROBES | Fluorescent dyes, near-infrared probes, biosensors, fluorescence microscopy. | OUT |
+| QUANTUM_SENSING_BIOMED | Optically pumped magnetometry, nitrogen-vacancy magnetometry, ghost imaging, quantum illumination, single-photon imaging, without a quantum-computing algorithm. Subject to ionising-context sub-screen in Stage 3.5. | OUT (borderline) |
+| QUANTUM_CRYPTO_MED | Quantum key distribution, encryption, watermarking, blockchain applied to medical images. | OUT (borderline) |
+| QUANTUM_INSPIRED_CLASSICAL | Tensor networks, simulated annealing on classical hardware, methods branded as "quantum" without quantum-hardware or simulator execution. | OUT |
+| CLASSICAL_AI_FOR_IMAGING | Classical AI, ML, or DL for medical imaging with no quantum component. | OUT |
+| CLINICAL_NON_IMAGING | Clinical trials, biomarker, outcomes, epidemiology, without imaging methodology. | OUT |
+| OTHER | None of the above. | OUT |
+
+Decision rule for Stage 3 inclusion:
+
+- primary category equals QC_FOR_IMAGING AND confidence equals high → IN-scope yes.
+
+- primary category equals QC_FOR_IMAGING AND confidence equals low → IN-scope uncertain.
+
+- All other categories → OUT-of-scope.
+
+**v1 and v2 verdict distribution (Stage 3, per primary category):**
+
+| **Category** | **v1 (n=2974)** | **v2 (n=6839)** | **v1 % / v2 %** | **Verdict** |
+| --- | --- | --- | --- | --- |
+| CLINICAL_NON_IMAGING | 659 | 1062 | 22.2 / 15.5 | OUT |
+| OTHER | 650 | 1381 | 21.9 / 20.2 | OUT |
+| QUANTUM_DOTS | 382 | 1211 | 12.8 / 17.7 | OUT |
+| FLUORESCENCE_PROBES | 348 | 924 | 11.7 / 13.5 | OUT |
+| CLASSICAL_AI_FOR_IMAGING | 343 | 1095 | 11.5 / 16.0 | OUT |
+| NANO_THERAPEUTICS | 297 | 612 | 10.0 /  8.9 | OUT |
+| QUANTUM_SENSING_BIOMED | 146 | 238 | 4.9 /  3.5 | OUT (borderline; see 7.4) |
+| QC_FOR_IMAGING | 89 | 179 | 3.0 /  2.6 | IN |
+| QUANTUM_INSPIRED_CLASSICAL | 38 | 73 | 1.3 /  1.1 | OUT |
+| QUANTUM_CRYPTO_MED | 22 | 64 | 0.7 /  0.9 | OUT |
+
+*Counts are total Stage-3 verdicts per pass. v1 IN-scope candidates: 88 (70 high + 18 low after one PRISMA exclusion). v2 IN-scope candidates: 179 (120 high + 59 low). Combined Step-4 candidate set after Step-3.5 sub-screen: 179 QC_FOR_IMAGING + 12 Step-3.5 promotes = 191 records.*
+
+# 9. Data items and extraction plan (Stage 4 onwards)
+
+For each paper that survives Stage 4 full-text screening, the following data items will be extracted by an AI-assisted extraction pipeline with mandatory human cross-check by a co-author:
+
+## 9.1 Bibliographic
+
+- DOI, title, authors, year, journal, publisher, country of corresponding author, funding declared.
+
+## 9.2 Quantum-computing characterisation
+
+- Paradigm (QML, VQE, QAOA, quantum kernel, FRQI, NEQR, hybrid quantum-classical, other; free text for novel paradigms).
+
+- Hardware platform (vendor, qubit count, qubit modality: superconducting, trapped-ion, photonic, neutral-atom, annealing). Specify whether real hardware or simulator.
+
+- Simulator framework (Qiskit Aer, PennyLane, Cirq, Microsoft QDK, Strawberry Fields, other).
+
+- Circuit depth, parameter count, ansatz family if applicable.
+
+- Image encoding method (amplitude encoding, basis encoding, angle encoding, FRQI, NEQR, hybrid).
+
+- Error-mitigation strategy if any.
+
+- Hardware-aware circuit synthesis, mapping, and transpilation level — controlled vocabulary {none reported, default transpilation (SDK default such as Qiskit transpile or Cirq optimizer), hardware-aware mapping (explicit qubit routing, native-gate decomposition, gate-count or depth optimisation against the executing topology), pulse-level optimisation (Qiskit Pulse, OpenPulse, optimal-control schedules)}. Quote-grounded; the as-reported value is one of the four levels.
+
+- Circuit-complexity readout: qubit count, circuit depth, total gate count (or two-qubit gate count if separately reported), and shot count per circuit evaluation. Each of the four sub-fields is captured as the verbatim value if stated by the authors or 'not reported' otherwise. Each reported sub-field contributes one point to a quantum-resource-accounting completeness score (0–4) defined in §10.
+
+- Extended image-encoding controlled vocabulary (supplementing the bullet above): basis encoding, angle encoding, amplitude encoding, FRQI, NEQR, NASS, MCRQI, NCQI, BRQI, hybrid, not applicable (e.g. for quantum annealing on tabular features); free text for novel encodings.
+
+## 9.3 Imaging characterisation
+
+- Modality (CT, PET, SPECT, MRI, ultrasound, X-ray, fundus, OCT, histopathology, dermoscopy, microscopy, other; multi-modal flag).
+
+- Anatomic region or disease context (oncology, neurology, cardiology, ophthalmology, pulmonology, other).
+
+- Imaging task (reconstruction, analysis, segmentation, classification, denoising, super-resolution, radiomics, fusion, instrumentation, dosimetry, other).
+
+- Dataset (public benchmark with name; private clinical with size; synthetic with generator).
+
+- Sample size (training, validation, test).
+
+- Ionising-radiation flag (yes / no), derived deterministically from the modality field. Ionising = {PET, SPECT, CT, photon-counting CT, planar X-ray, mammography, fluoroscopy, gamma camera, scintigraphy, Compton camera, proton CT, proton radiography, EPID, in-vivo dosimetric imaging}; non-ionising = {MRI, ultrasound, OCT, fundus, histopathology, dermoscopy, microscopy}.
+
+## 9.4 Validation and methodological quality
+
+- Classical baseline present (yes / no), with identification of the baseline architecture or method.
+
+- Reported performance metrics for both quantum method and classical baseline.
+
+- Cross-validation strategy, external test set, statistical testing (yes / no, method).
+
+- Reproducibility (code release, data release, pre-trained weights release).
+
+- Reported computational cost (training time, inference time, quantum resource accounting).
+
+- Baseline-rigour grade: none / weak (different data) / matched-data / matched-data + matched-compute / matched-data + matched-compute + statistical significance test. The grade is the highest level supported by quote-grounded evidence.
+
+- Dataset-realism grade: toy (synthetic or downsampled MNIST-style images of edge length ≤32 pixels) / public benchmark (for example MedMNIST, BraTS, LIDC, OASIS) / private single-centre / private multi-centre / prospective clinical.
+
+- Reproducibility tier (refinement of the bullet above): none / code released only / data released only / weights or circuit parameters released only / code + data + weights or circuit parameters.
+
+- Reporting-standard adherence — checklist applied: none / CLAIM 2024 (Tejani et al., Radiology: AI, 2024) / TRIPOD+AI (Collins et al., BMJ 2024) / METRICS 2024 (Kocak et al., Insights Imaging 2024; radiomics only) / multiple. The score is 'none' if the paper does not reference any of these instruments.
+
+## 9.5 Translational maturity
+
+- Translational level (proof of concept, in-silico evaluation, retrospective clinical evaluation, prospective clinical evaluation).
+
+- Clinical-impact claim made by the authors (verbatim or summarised).
+
+- Independent clinical-impact assessment by the review team (low / moderate / high), with justification.
+
+- Clinical-translation readiness composite score (0–4): sum of four binary criteria — (a) sample-size justification or power calculation reported by the authors, (b) external or independent validation set used, (c) regulatory pathway explicitly addressed (FDA 510(k), CE mark, MDR, or equivalent), (d) prospective clinical evaluation present. Each criterion is read from the manuscript and recorded as 0 or 1 based on quote-grounded evidence; no calculation or reproduction of the authors' results is performed by the review team.
+
+# 10. Risk of bias and methodological-quality assessment
+
+Standard clinical-trial risk-of-bias tools (Cochrane RoB 2, ROBINS-I) are not directly applicable to methodological papers on quantum-computing algorithms for medical imaging. A custom methodological-quality rubric will be used, with criteria locked before extraction:
+
+- Dataset realism: toy / benchmark / real clinical.
+
+- Sample-size justification reported by the authors (yes / no). The criterion is read from the manuscript; the review team does not perform an independent power calculation.
+
+- Presence and identification of a classical baseline.
+
+- Statistical testing with appropriate methods.
+
+- External or independent validation.
+
+- Honest reporting of quantum resources (qubit count, depth) and of hardware-vs-simulator distinction.
+
+- Reproducibility (code and data availability).
+
+- Quantum-resource accounting completeness (0–4): composite from the §9.2 circuit-complexity readout. Score = (qubit count reported) + (circuit depth reported) + (gate count reported) + (shot count reported). Each component contributes 0 or 1.
+
+- Error-mitigation strategy clarity: none reported / readout-only / zero-noise extrapolation / probabilistic error cancellation / dynamical decoupling / T-REx / Clifford-data regression / composite. The reported method is quote-grounded; clarity = high if a named mitigation strategy is identifiable, low if only generic mention is present.
+
+- Explainability mechanism reported: none / classical XAI (Grad-CAM, SHAP, LIME, attention, concept-bottleneck) / quantum XAI (QSHAP, QLRP, TSBA) / both. Tracked as a flag rather than a primary axis given the low expected prevalence in the corpus.
+
+Each criterion will be rated low / moderate / high concern. A summary methodological-quality category (low / moderate / high concern) will be derived. Each rating will be performed by at least one AI pass and one human co-author cross-check; disagreements will be resolved by consensus discussion with a third co-author as adjudicator.
+
+# 11. Synthesis methods
+
+The synthesis will be narrative, supported by aggregate descriptive statistics and figures. No meta-analysis is planned because the heterogeneity of outcomes (different imaging tasks, modalities, datasets, metrics, baselines) precludes a meaningful pooled effect estimate.
+
+Planned aggregate analyses:
+
+- Distribution of papers by year, modality, imaging task, quantum paradigm, hardware platform.
+
+- Distribution by country of corresponding author and by publication venue.
+
+- Distribution by dataset type (real clinical, public benchmark, synthetic).
+
+- Proportion of papers reporting a classical baseline; proportion reporting statistical testing; proportion releasing code or data.
+
+- Translational-maturity distribution; methodological-quality distribution.
+
+- Cross-tabulation of paradigm × imaging task and of modality × imaging task.
+
+Sensitivity analyses will be performed by restricting the synthesis to papers that satisfy stricter criteria (real clinical dataset, classical baseline present, statistical testing performed). The robustness of headline statements to these restrictions will be reported.
+
+# 12. Inter-rater reliability and audit
+
+A stratified random sample of 120 records from the Stage 3 corpus has been prepared as a kappa-audit workbook. The workbook is balanced across the ten categories and the two confidence levels. A blinded human co-author will independently categorise these 120 records using the same taxonomy and decision rule. Agreement with the AI-assisted screening will be computed as Cohen's kappa overall and per-category. The acceptance threshold is overall kappa at least 0.61 (substantial agreement per Landis and Koch 1977). Discrepancies will be reviewed and reported.
+
+For Stage 4 full-text screening, every AI verdict will be cross-checked by a human co-author against the full PDF. Disagreements will be resolved by consensus with a third co-author as adjudicator.
+
+# 13. Reporting
+
+The final review will be reported in conformance with the PRISMA 2020 reporting guideline. A PRISMA 2020 flow diagram will be included. A PRISMA 2020 checklist will be provided as supplementary material with item-by-item page references. The completed manuscript will be submitted to IEEE Transactions on Radiation and Plasma Medical Sciences in conformance with the journal's submission policies.
+
+All scripts, prompt templates, model identifiers, audit logs, and verdict files generated during the screening pipeline will be deposited as supplementary materials in the OSF Project alongside the registration.
+
+# 14. Use of generative AI
+
+Generative AI is used in this review for record-level scope screening (Stage 3), full-text re-screening (Stage 4), data extraction (Stage 4 onwards), and subcategorisation (Stage 5). The model used is Claude Opus 4.7 with extended thinking, deployed via the Claude Code interactive environment under a Claude Pro Max subscription. Each task is executed by an isolated subagent context with a fixed prompt; outputs are validated against a JSON schema and require quote grounding against the source field. Every AI verdict that affects an inclusion or exclusion decision is cross-checked by a human co-author. All AI-assisted steps are logged with model identifier, prompt hash, raw response, and timestamp.
+
+Generative AI is not used to write the substantive scientific argument, the discussion, or the interpretation of results in the manuscript. The use of generative AI in the screening and extraction pipeline will be disclosed explicitly in the Methods section of the manuscript and in the manuscript's acknowledgements, in line with IEEE and ICMJE guidance.
+
+# 15. Timeline
+
+| **Stage** | **Status / planned date** |
+| --- | --- |
+| Database search | Complete (30 January 2026). |
+| Zotero import and manual filtering | Complete (5 February 2026). |
+| Abstract recovery and AI-assisted scope screening (Stage 3) | Complete (10 to 11 May 2026). |
+| OSF protocol deposit | Planned (after co-author sign-off, May to June 2026). |
+| Quantum-sensing ionising sub-screen (Stage 3.5) | Planned (after OSF deposit). |
+| Full-text screening (Stage 4) | Planned (May to June 2026). |
+| Subcategorisation (Stage 5) | Planned (June 2026). |
+| Inter-rater kappa audit (Stage 6) | Planned (June to July 2026). |
+| Manuscript composition (Stage 7) | Planned (July to August 2026). |
+| Submission to IEEE TRPMS | Planned (Q3 2026). |
+
+# 16. Amendments policy
+
+Substantive changes to the protocol after OSF deposit will be made via formal Registration Updates on OSF, each accompanied by a written justification. A Transparent Changes log will be maintained as a living document in the parent OSF Project, recording every deviation from the registered protocol with date, scope, and rationale. The log will be cited in the Methods section of the final manuscript.
+
+Changes that do not require a Registration Update (because they do not affect the method, only the metadata): correction of typographic errors, addition of co-authors who joined after deposit, addition of supplementary files in the parent OSF Project, addition of the final manuscript DOI. These will still be reflected in the Transparent Changes log.
+
+# 17. Known limitations
+
+- Three databases (PubMed, Web of Science, IEEE Xplore); Scopus, Embase, Google Scholar were not searched.
+
+- Five-year window (2021 to 2026); pre-2021 foundational papers are excluded by design and cited as background only.
+
+- Single-keyword core concept ("quantum"); quantum-specific synonyms such as QML, VQE, QAOA, qubit, parameterised quantum circuit were not added to the strings.
+
+- Retrospective registration with respect to Stages 1 to 3; prospective with respect to Stages 3.5 and onwards.
+
+- AI-assisted screening introduces a model-specific bias that cannot be fully eliminated, only mitigated through quote-grounding, schema validation, audit logging, and human cross-check.
+
+- Manual interventions in Stage 3 (single-record retries for one content-policy refusal; manual category retention for four PDFs without a parsable abstract header) are documented in the audit log but constitute a small residual departure from a fully automated pipeline.
+
+- The Stage 3.5 sub-screen has a residual false-negative risk for QUANTUM_SENSING_BIOMED records that genuinely concern ionising-radiation imaging but evade keyword-based modality matching; this risk is estimated from a 10 percent random sample of stay_OUT verdicts and is reported in the manuscript.
+
+- Two-pass design (v1 pilot then v2 full corpus). The v1 OA-only pilot was used to develop and lock the 10-category Stage-3 taxonomy. The v2 full-corpus pass applied that locked taxonomy to the expanded 6847-DOI corpus. The 2874 records identified by both passes were not re-screened; their v1 verdicts were reused with an audit flag. This design carries a residual risk that the v1-only piloting biased the taxonomy toward OA-visible subcategories; the manuscript reports this candidly in the Limitations section.
+
+- v2 abstract-recovery title-loss bug (subsequently fixed). The v2 abstract recovery script initially discarded titles for records whose abstracts failed validation, affecting 868 records. A dedicated title-only retry recovered titles for 860 of them via Crossref; the remaining 8 had no metadata in any source and were PRISMA-excluded under "no metadata retrievable". This sequence is documented in v2_active/recovered_titles.jsonl and v2_active/no_metadata_retrievable.json in the supplementary file bundle.
+
+# 18. References
+
+Methodological references that anchor this protocol:
+
+- Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71.
+
+- Moher D, Shamseer L, Clarke M, et al. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. Syst Rev 2015;4(1):1.
+
+- Landis JR, Koch GG. The measurement of observer agreement for categorical data. Biometrics 1977;33(1):159-174.
+
+- van den Akker OR, Weston SJ, Campbell L, et al. Preregistration of secondary data analysis: a template and tutorial. Meta-Psychology 2021;5:MP.2020.2625.
+
+**[PLACEHOLDER: **Substantive (non-methodological) references for the manuscript Introduction and QC primer will be assembled separately; this protocol cites only the methodological scaffolding.**]**
+
+Page 1 of 2
