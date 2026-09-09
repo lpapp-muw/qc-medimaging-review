@@ -79,6 +79,14 @@ poppler-utils (pdftotext, pdffonts, pdftoppm), tesseract-ocr. LLM steps ran in C
 enrichment, as disclosed in the registration) with per-step subagents; they are not
 re-runnable byte-for-byte, which is why every verdict file is committed.
 
+## Licence
+
+Code (scripts, CLAUDE.md, agent definitions) is licensed under Apache-2.0 (LICENSE).
+Data files and the documents under docs/ are licensed under CC BY 4.0 (LICENSE-DATA).
+Quoted passages inside the data files remain the copyright of their original authors
+and publishers and are reproduced under the right of quotation with DOI attribution;
+see NOTICE. Cite the review when reusing the data.
+
 ## Notes for anyone recomputing
 
 - The `pdf_file` column of the enriched workbook is a logical identifier, not a filesystem

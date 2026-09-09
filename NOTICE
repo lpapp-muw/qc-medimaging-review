@@ -1,0 +1,15 @@
+Quantum Computing for Medical Imaging Applications: systematic review pipeline
+Copyright 2026 Laszlo Papp
+
+Code (all *.py files, CLAUDE.md and .claude/agents/*.md files, shell scripts) is
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Data files (*.jsonl, *.json, *.csv, *.xlsx, *.bib, *.txt outputs, and the documents
+under docs/) are licensed under the Creative Commons Attribution 4.0 International
+License (see LICENSE-DATA).
+
+Quoted passages inside the data files (the "quote" fields that ground extracted
+values) are short excerpts from the reviewed publications. They remain the
+copyright of their respective authors and publishers and are reproduced here under
+the right of quotation for the purpose of verification, with the source indicated
+by DOI in each record. They are not covered by the licences above.
