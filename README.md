@@ -2,7 +2,7 @@
 
 Code, configuration, and derived data for the IEEE TRPMS invited systematic review
 "Quantum Computing for Medical Imaging Applications" (corresponding author: Laszlo Papp,
-Medical University of Vienna and MORPHEDRON). The review is PRISMA-compliant and
+Medical University of Vienna). The review is PRISMA-compliant and
 LLM-assisted; this repository is the reproducibility deposit referenced in the OSF
 registration (docs/OSF_protocol_submitted_2026-06-30.md). Post-registration changes are
 recorded in the Transparent Changes log attached to the OSF project.
