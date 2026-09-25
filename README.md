@@ -100,3 +100,7 @@ see NOTICE. Cite the review when reusing the data.
   `quantum_resource_accounting_completeness (derived)` was computed on the main-text
   extraction before the supplementary pass, which later filled four shot counts; the
   manuscript reports the score on the main text.
+- The quantum-versus-classical comparison in Section III-J of the manuscript and Figure F3
+  were computed from per-paper verification records of the reported quantum and classical
+  metrics, and the circuit-width summary in Figure F2 from a parse of `qubit_count`; these
+  intermediate records are not part of this deposit.
