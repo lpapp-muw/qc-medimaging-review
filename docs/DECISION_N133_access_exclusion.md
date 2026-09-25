@@ -51,7 +51,7 @@ Equation 18 is `Q = tanh(W_q · Z^(L) + b_q)`, a dense layer with a tanh activat
 | Of which quantum-inspired classical | 1 | **2** |
 | Reports assessed for eligibility | 181 | 181 (unchanged) |
 
-All upstream counts (8,961 / 2,114 / 6,847 / 8 / 6,839 / 191 / 10 / 181) are unchanged. `133 + 48 = 181` reconciles.
+All upstream counts (8,869 / 9 / 2,013 / 6,847 / 8 / 6,839 / 191 / 10 / 181) are unchanged. `133 + 48 = 181` reconciles.
 
 ---
 

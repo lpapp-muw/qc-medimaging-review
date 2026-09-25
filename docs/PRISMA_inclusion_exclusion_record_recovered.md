@@ -2,6 +2,8 @@
 
 **Review:** "Quantum Computing for Medical Imaging Applications" (IEEE TRPMS), PRISMA 2020, LLM-assisted extraction.
 **Record date:** 2026-06-23. **Final synthesis set: N = 134.**
+
+> **Status note (September 2026).** This record is superseded in two respects. The synthesis set is N = 133 with 48 full-text exclusions (see `DECISION_N133_access_exclusion.md`). The identification counts in Sections 1, 6, 8 and 9 have been corrected against the round-2 search workbook `1-Search/Round-2-All/DOIs.xlsx` (round 2 run on 18 May 2026).
 **Canonical pipeline:** the v2 full-corpus pass (open-access filter removed). The v1 open-access pilot locked the 10-category screening taxonomy and is retained only as an audit trail (Section 6). All PRISMA numbers below are the v2 figures unless explicitly marked v1.
 
 **Purpose.** Preserve the inclusion/exclusion chain for the Methods section after two numbering gaps were recovered this session: (1) the 191 -> 181 transition (reports sought vs not retrieved), previously undocumented; (2) the per-paper composition of the 47 full-text exclusions and the 165 -> 134 reconciliation. Every number carries a source tag: `[SOURCE: ...]` for a project handoff or record, `[VERIFIED: computed]` for a value recomputed this session from the uploaded data files.
@@ -15,8 +17,9 @@
 | Stage | Count | Source |
 |---|---:|---|
 | **Identification** | | |
-| Records identified, database search (30 Jan 2026, no OA filter), 3 databases | 8,961 | `[SOURCE: v2-and-step4 §1.2]` |
-| Duplicates removed (lower-cased DOI exact match) | 2,114 | `[VERIFIED: 8,961 − 6,847]` |
+| Records identified, database search (18 May 2026, no OA filter): Web of Science 4,813, PubMed 3,127, IEEE Xplore 929 | 8,869 | `[VERIFIED: 1-Search/Round-2-All/DOIs.xlsx]` |
+| Export entries without a DOI | 9 | `[VERIFIED: 8,869 − 8,860 non-empty]` |
+| Duplicates removed (lower-cased DOI exact match) | 2,013 | `[VERIFIED: 8,860 − 6,847]` |
 | Unique records after deduplication | 6,847 | `[SOURCE: v2-and-step4 §1.2]` |
 | **Pre-screening removal** | | |
 | Records removed: no metadata retrievable (no abstract/title via Crossref/OpenAlex/EuropePMC) | 8 | `[SOURCE: v2-and-step4 §1.2]` |
@@ -179,7 +182,7 @@ The v1 open-access pilot is not the PRISMA corpus. It is retained because it loc
 
 v1/v2 overlap: 2,904 shared; 74 v1-only (dropped in v2); 3,943 v2-only `[SOURCE: v2-and-step4 §1.2]`.
 
-Per-database v2 raw counts are not separately recorded (only the v2 raw total 8,961). The v1 per-database split above is the only itemized database breakdown on file. See Section 8.
+Per-database v2 raw counts: Web of Science 4,813, PubMed 3,127, IEEE Xplore 929 (total 8,869), of which 9 export entries carried no DOI `[VERIFIED: 1-Search/Round-2-All/DOIs.xlsx]`.
 
 ---
 
@@ -193,7 +196,7 @@ Per-database v2 raw counts are not separately recorded (only the v2 raw total 8,
 
 ## 8. Residual gaps not yet recovered (flag for completeness before submission)
 
-1. **v2 per-database raw counts.** Only the v2 raw total (8,961) is recorded; the PubMed/WoS/IEEE split for v2 is not on file. The PRISMA identification box can be drawn at the aggregate level, but a per-database breakdown (standard in PRISMA 2020) would require re-deriving from the v2 search exports. `[SOURCE gap: v2-and-step4 §1.2 gives only the total]`
+1. **v2 per-database raw counts.** Resolved: Web of Science 4,813, PubMed 3,127, IEEE Xplore 929 (8,869), 9 without a DOI, 2,013 duplicates `[VERIFIED: 1-Search/Round-2-All/DOIs.xlsx]`.
 2. **v2 metadata-stage retraction / non-English itemization.** v2 records only "no metadata retrievable = 8" before screening. Retracted and non-English handling at the v2 metadata stage is not itemized; note that 3 retracted papers consequently surfaced later in the not-retrieved set (Section 3), which is the documentable trace.
 3. **Deposited OSF protocol file.** The file named `OSF_Protocol_QC_MedImaging_v0_6.docx` in the working project is a mislabeled v0.2-era markdown stub carrying the superseded screening-kappa text and no final PRISMA numbers `[VERIFIED: not a docx; zero hits for 181/134/47]`. The genuine deposited v0.6 protocol is the authoritative registration artifact and should be archived alongside this record.
 
@@ -203,9 +206,10 @@ Per-database v2 raw counts are not separately recorded (only the v2 raw total 8,
 
 ```
 Identification
-  Records identified from databases (n = 8,961; 3 databases)
+  Records identified from databases (n = 8,869; 3 databases)
   Records removed before screening:
-    Duplicate records removed (n = 2,114)
+    Export entries with no DOI (n = 9)
+    Duplicate records removed (n = 2,013)
     Records with no retrievable metadata (n = 8)
 
 Screening

@@ -6,5 +6,4 @@
 6. Combined all DOIs to a flat list
 7. Empty DOI entries identified and removed. 9 entries deleted.
 8. Duplicates identified and removed. 2021 duplicate entries deleted, leaving 6848 unique DOIs.
-
-
+Correction (recount from DOIs.xlsx, September 2026): 2013 duplicate entries, 6847 unique DOIs. The 6848 above counted the header row.

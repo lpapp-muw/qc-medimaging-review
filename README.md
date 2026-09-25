@@ -50,7 +50,7 @@ Claude Code from inside the step folder for the agents to register.
 
 ## Pipeline order
 
-1. 1-Search: database queries (30 Jan 2026; round 1 open-access filtered, round 2 unfiltered), deduplication to DOI lists.
+1. 1-Search: database queries (round 1 on 30 Jan 2026, open-access filtered; round 2 on 18 May 2026, unfiltered), deduplication to DOI lists.
 2. 2-Metadata_Analysis: `merge_doi_metadata_v2.py` merges exports on DOI; `enrich_missing_doi_metadata_online_v3_freeplan.py` fills gaps from Crossref, OpenAlex, Semantic Scholar and Unpaywall. Per-field source provenance: `provenance_online_enrichment_v3.json` (root).
 3. 3-AbstractRetrieve: `scripts/v2/recover_abstracts_v2.py`, `recover_titles_v2.py`, `merge_v2_corpus.py`, `seed_v2_verdicts.py` build the 6,847-record v2 corpus and pre-seed 2,874 v1 verdicts. `CLAUDE.md` with `scripts/v2/batch_helper.py` drives the `screen-papers` subagent to `v2_active/verdicts.jsonl` (6,839 verdicts after 8 no-metadata exclusions). `scripts/v2/rescue_v2_quarantine*.py` handle validation failures. v1 (open-access scoping run, 10 to 11 May 2026) is archived under `v1_archive/` with its scripts under `scripts/v1/`; the folder README gives the v1-to-v2 narrative.
 4. 3.5-IonisingPromote: `scripts/v2/prepare_3_5_v2_input.py` selects the 96 new sensing records; `CLAUDE.md` with `batch_helper_3_5_v2.py` drives `ionising-promote`; `report_3_5_v2.py` and `audit_3_5_v2_sampling.py` report and audit. v1 (146 records, 4 promotes) under `v1_archive/`.
@@ -91,3 +91,12 @@ see NOTICE. Cite the review when reusing the data.
 
 - The `pdf_file` column of the enriched workbook is a logical identifier, not a filesystem
   path. The `country_corresponding` column is unnormalised.
+- Three derived values were not recomputed after later edits. (1) For
+  10.1109/access.2025.3531407, Step 5 corrected `real_or_simulator` to simulator but
+  `hardware_modality` still reads superconducting, so `hardware_execution_subcategory`
+  counts it as hardware; `execution_context (derived)` is the authoritative execution field
+  (21 studies on real hardware). (2) `multimodal (derived)` for 10.1007/s00259-023-06362-6
+  predates the supplement-filled secondary modality (MRI). (3)
+  `quantum_resource_accounting_completeness (derived)` was computed on the main-text
+  extraction before the supplementary pass, which later filled four shot counts; the
+  manuscript reports the score on the main text.
