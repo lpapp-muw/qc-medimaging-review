@@ -41,7 +41,7 @@ DOIRetrieve/            open-access PDF retrieval scripts (Unpaywall, OpenAlex, 
 5-Adjudication/         Step 5: contradiction adjudication and eligibility cull
 6-InterRaterKappa/      Step 6: kappa.py, frozen crosswalk, ai.xlsx and human.xlsx inputs, diffs
 7-Manuscript/           N=133 recompute output, post-appraisal correction overlay, supp_enrich/ enrichment
-docs/                   registered protocol, PRISMA record, methods record, post-deposit exclusion decision
+docs/                   registered protocol, PRISMA record, methods record, post-deposit exclusion decision; supplementary/ holds Tables S1, S2 and the PRISMA 2020 checklist
 ```
 
 Each step folder that was driven by Claude Code has its own CLAUDE.md and .claude/agents/.
